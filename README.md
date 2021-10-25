@@ -40,5 +40,16 @@ Week 01 - Warming up
 	- Redirection and Pipelines [[Link]](https://app.dataquest.io/c/68/m/391/redirection-and-pipelines)
 	- Standard Streams and File Descriptors [[Link]](https://app.dataquest.io/c/68/m/392/standard-streams-and-file-descriptors)
 
+Week 02 - Introduction to Data Science
+- Pandas and Numpy Fundamentals
+	- Introduction to Numpy [[Link]](https://app.dataquest.io/c/54/m/289/introduction-to-numpy)
+	- Boolean Indexing with Numpy [[Link]](https://app.dataquest.io/c/54/m/290/boolean-indexing-with-numpy)
+	- Introduction to Pandas [[Link]](https://app.dataquest.io/c/54/m/291/introduction-to-pandas)
+	- Exploring Data with Pandas: Fundamentals [[Link]](https://app.dataquest.io/c/54/m/381/exploring-data-with-pandas%3A-fundamentals)
+	- Exploring Data with Pandas: Intermediate [[Link]](https://app.dataquest.io/c/54/m/292/exploring-data-with-pandas%3A-intermediate)
+	- Data Cleaning Basics [[Link]](https://app.dataquest.io/c/54/m/293/data-cleaning-basics)
+	- :cowboy_hat_face: Guided Project - Exploring eBay Car Sales Data [[Link]](https://app.dataquest.io/c/54/m/294/guided-project%3A-exploring-ebay-car-sales-data)
+	
+
 
 
