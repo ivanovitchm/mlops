@@ -20,7 +20,7 @@
 
 #### Lessons
 
-Week 01 - Warming up
+*Week 01* - Warming up
 - Git and Version Control
 	- Introduction to Git [[Link]](https://app.dataquest.io/c/24/m/98/introduction-to-git)
 	- Git Remotes [[Link]](https://app.dataquest.io/c/24/m/119/git-remotes)
@@ -40,7 +40,7 @@ Week 01 - Warming up
 	- Redirection and Pipelines [[Link]](https://app.dataquest.io/c/68/m/391/redirection-and-pipelines)
 	- Standard Streams and File Descriptors [[Link]](https://app.dataquest.io/c/68/m/392/standard-streams-and-file-descriptors)
 
-Week 02 - Introduction to Data Science
+*Week 02* - Introduction to Data Science
 - Pandas and Numpy Fundamentals
 	- Introduction to Numpy [[Link]](https://app.dataquest.io/c/54/m/289/introduction-to-numpy)
 	- Boolean Indexing with Numpy [[Link]](https://app.dataquest.io/c/54/m/290/boolean-indexing-with-numpy)
