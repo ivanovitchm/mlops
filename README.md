@@ -20,14 +20,14 @@
 #### Lessons
 
 Week 01 - Warming up
-	- Git and Version Control
-		- Introduction to Git [[Link]](https://app.dataquest.io/c/24/m/98/introduction-to-git)
-		- Git Remotes [[Link]](https://app.dataquest.io/c/24/m/119/git-remotes)
-		- Git Branches [[Link]](https://app.dataquest.io/c/24/m/120/git-branches)
-		- Merge Conflicts [[Link]](https://app.dataquest.io/c/24/m/121/merge-conflicts)
-		- Git Installation and Github integration [[Link]](https://app.dataquest.io/c/24/m/128/project%3A-git-installation-and-github-integration?path=2)
-	- Elements of the Command Line
-	- Text Processing in the Command Line
+- Git and Version Control
+	- Introduction to Git [[Link]](https://app.dataquest.io/c/24/m/98/introduction-to-git)
+	- Git Remotes [[Link]](https://app.dataquest.io/c/24/m/119/git-remotes)
+	- Git Branches [[Link]](https://app.dataquest.io/c/24/m/120/git-branches)
+	- Merge Conflicts [[Link]](https://app.dataquest.io/c/24/m/121/merge-conflicts)
+	- Git Installation and Github integration [[Link]](https://app.dataquest.io/c/24/m/128/project%3A-git-installation-and-github-integration?path=2)
+- Elements of the Command Line
+- Text Processing in the Command Line
 
 
 
