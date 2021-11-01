@@ -63,6 +63,7 @@
 - PCQA - **pylint** [[Video]](https://loom.com/share/0baabe39682c4b04a77db41213973f0e)
 - PCQA - **autopep8** [[Video]](https://loom.com/share/8d638ca9db564b44bb17abfe0ef97727)
 - PCQA - **nbQA** [[Video]](https://loom.com/share/5880424f13c745a29263e1757407db69)
-- :floppy_disk: Datasets [[Link]](https://github.com/ivanovitchm/mlops/blob/main/week_03/data)
+- :arrow_forward: Hands on 
+	- :floppy_disk: Datasets [[Link]](https://github.com/ivanovitchm/mlops/blob/main/week_03/data)
 
 
