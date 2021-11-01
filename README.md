@@ -41,7 +41,7 @@
 	- Redirection and Pipelines [[Link]](https://app.dataquest.io/c/68/m/391/redirection-and-pipelines)
 	- Standard Streams and File Descriptors [[Link]](https://app.dataquest.io/c/68/m/392/standard-streams-and-file-descriptors)
 
-**Week 02** - Introduction to Data Science [[Slide]](https://github.com/ivanovitchm/mlops/blob/main/Week_02/Week%20%2302.pdf)
+**Week 02** - Introduction to Data Science [[Slide]](https://github.com/ivanovitchm/mlops/blob/main/week_02/week%20%2302.pdf)
 - Pandas and Numpy Fundamentals
 	- Introduction to Numpy [[Link]](https://app.dataquest.io/c/54/m/289/introduction-to-numpy)
 	- Boolean Indexing with Numpy [[Link]](https://app.dataquest.io/c/54/m/290/boolean-indexing-with-numpy)
