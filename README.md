@@ -15,6 +15,7 @@
 - :books: Chris Fregly, Antje Barth. Data Science on AWS. [[Link]](https://www.oreilly.com/library/view/data-science-on/9781492079385/)
 - :books: Hannes Hapke, Catherine Nelson. Building Machine Learning Pipelines. [[Link]](https://www.oreilly.com/library/view/building-machine-learning/9781492053187/)
 - :books: François Chollet. Deep Learning with Python [[Link]](https://www.manning.com/books/deep-learning-with-python-second-edition)
+- :books: Mariano Anaya. Clean Code in Python [[Link]](https://www.packtpub.com/product/clean-code-in-python-second-edition/9781800560215)
 - :fist_right: Dataquest Academic Program [[Link]](https://www.dataquest.io/academic-program/)
 - :smiley: CS329S - ML Systems Design [[Link]](https://stanford-cs329s.github.io/syllabus.html)
 
@@ -40,7 +41,7 @@
 	- Redirection and Pipelines [[Link]](https://app.dataquest.io/c/68/m/391/redirection-and-pipelines)
 	- Standard Streams and File Descriptors [[Link]](https://app.dataquest.io/c/68/m/392/standard-streams-and-file-descriptors)
 
-**Week 02** - Introduction to Data Science [[Slide]](https://github.com/ivanovitchm/mlops/blob/main/Week_02/Week%20%2302.pdf)
+**Week 02** - Introduction to Data Science [[Slide]](https://github.com/ivanovitchm/mlops/blob/main/week_02/week%20%2302.pdf)
 - Pandas and Numpy Fundamentals
 	- Introduction to Numpy [[Link]](https://app.dataquest.io/c/54/m/289/introduction-to-numpy)
 	- Boolean Indexing with Numpy [[Link]](https://app.dataquest.io/c/54/m/290/boolean-indexing-with-numpy)
@@ -50,6 +51,17 @@
 	- Data Cleaning Basics [[Link]](https://app.dataquest.io/c/54/m/293/data-cleaning-basics)
 	- :cowboy_hat_face: Guided Project - Exploring eBay Car Sales Data [[Link]](https://app.dataquest.io/c/54/m/294/guided-project%3A-exploring-ebay-car-sales-data)
 	
-
+**Week 03** - Clean Code Principles for Data Science and Machine Learning [[Slides]](https://github.com/ivanovitchm/mlops/blob/main/week_03/Coding_Best_Practices.pdf)
+	- Outline [[Video]](https://loom.com/share/22c62817b7044d00971024b300f854ca)
+	- Coding Best Practices [[Video]](https://loom.com/share/e40da31a79614d539e4bd98e8a846c0c)
+	- Writing Clean Code [[Video]](https://loom.com/share/9936fa3c506648ce9e623e4efdf3b981)
+	- Refactoring Code [[Video]](https://loom.com/share/00431f4eb13d47babe9c5019c297ce6e)
+	- Efficient Code [[Video]](https://loom.com/share/7962eff4f3bc4254a860258b900d59eb)
+	- Documentation [[Video]](https://loom.com/share/766f75940d0f4a81ba7aafd9332bcb72)
+	- Python Code Quality Authority (PCQA) - **pycodestyle** [[Video]](https://loom.com/share/750f69d757ac48e187a1de6ea463a69c)
+	- PCQA - **pylint** [[Video]](https://loom.com/share/0baabe39682c4b04a77db41213973f0e)
+	- PCQA - **autopep8** [[Video]](https://loom.com/share/8d638ca9db564b44bb17abfe0ef97727)
+	- PCQA - **nbQA** [[Video]](https://loom.com/share/5880424f13c745a29263e1757407db69)
+	- :floppy_disk: Datasets [[Link]](https://github.com/ivanovitchm/mlops/blob/main/data)
 
 
