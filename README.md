@@ -65,5 +65,6 @@
 - PCQA - **nbQA** [[Video]](https://loom.com/share/5880424f13c745a29263e1757407db69)
 - :arrow_forward: Hands on 
 	- :floppy_disk: Datasets [[Link]](https://github.com/ivanovitchm/mlops/blob/main/week_03/data)
+	- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/ivanovitchm/mlops/blob/main/week_03/code/1_Writing_Clean_Code.ipynb) [Writting Clean Code](https://github.com/ivanovitchm/mlops/blob/main/week_03/code/1_Writing_Clean_Code.ipynb)
 
 
