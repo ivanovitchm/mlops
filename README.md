@@ -69,5 +69,6 @@
 	- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/ivanovitchm/mlops/blob/main/week_03/code/exercise_01_refactoring_code.ipynb) [Exercise 01](https://github.com/ivanovitchm/mlops/blob/main/week_03/code/exercise_01_refactoring_code.ipynb)
 	- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/ivanovitchm/mlops/blob/main/week_03/code/exercise_02_optimizing_code_common_books_example.ipynb) [Exercise 02](https://github.com/ivanovitchm/mlops/blob/main/week_03/code/exercise_02_optimizing_code_common_books_example.ipynb)
 	- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/ivanovitchm/mlops/blob/main/week_03/code/exercise_03_optimizing_code_holiday_gifts.ipynb) [Exercise 03](https://github.com/ivanovitchm/mlops/blob/main/week_03/code/exercise_03_optimizing_code_holiday_gifts.ipynb)
-
+	- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/ivanovitchm/mlops/blob/main/week_03/code/Using_pycodestyle.ipynb) [Using pycodestyle](https://github.com/ivanovitchm/mlops/blob/main/week_03/code/Using_pycodestyle.ipynb)
+	- :snake: using pylint - [[script]](https://github.com/ivanovitchm/mlops/blob/main/week_03/code/using_pylint.py) [[refactored script]](https://github.com/ivanovitchm/mlops/blob/main/week_03/code/using_pylint_refactored.py)
 
