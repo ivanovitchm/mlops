@@ -73,3 +73,13 @@
 	- :snake: using pylint - [[script]](https://github.com/ivanovitchm/mlops/blob/main/week_03/code/using_pylint.py) [[refactored script]](https://github.com/ivanovitchm/mlops/blob/main/week_03/code/using_pylint_refactored.py)
 	- :memo: Best practices for writing functions [[Link]](https://app.dataquest.io/c/72/m/411/best-practices-for-writing-functions)
 
+**Week 04** Production Ready Code [[Slide]](https://github.com/ivanovitchm/mlops/blob/main/week_04/production_ready_code.pdf)
+
+- Outline [[Video]](https://loom.com/share/23b3e0e46d9c4a0694076b8b946dba49)
+- Catching Errors [[Video]](https://loom.com/share/92a41ada029a47139e8db0ed9013260b)
+- Testing and Data Science [[Video]](https://loom.com/share/2bfa70efd597484380a15351b51dddb6)
+- A brief introduction about purest [[Video]](https://loom.com/share/401fbe0c7d234616bc0f0a253ca7066e)
+- Logging [[Video]](https://loom.com/share/ef653e27a24a4253b573601888d57813)
+- Case study: testing and logging [[Video]](https://loom.com/share/a47ca7aa1b294da4b5cb5c732056bd74)
+- Model Drift [[Video]](https://loom.com/share/188460d86ff4444d84ad46e3021d3ece)
+- - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/ivanovitchm/mlops/blob/main/week_04/Production_Ready_Code.ipynb) [Production ready code - hands on](https://github.com/ivanovitchm/mlops/blob/main/week_04/Production_Ready_Code.ipynb)
