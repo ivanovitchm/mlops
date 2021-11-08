@@ -84,5 +84,5 @@
 - Model Drift [[Video]](https://loom.com/share/188460d86ff4444d84ad46e3021d3ece)
 - Hands on
 	- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/ivanovitchm/mlops/blob/main/week_04/Production_Ready_Code.ipynb) [Production ready code](https://github.com/ivanovitchm/mlops/blob/main/week_04/Production_Ready_Code.ipynb)
-	- Data Visualization Fundamentals [Link](https://app.dataquest.io/course/data-visualization-fundamentals)
+	- Data Visualization Fundamentals [[Link]](https://app.dataquest.io/course/data-visualization-fundamentals)
 	- Storytelling Data Visualization and Information Design [[Link]](https://app.dataquest.io/course/storytelling-information-design)
