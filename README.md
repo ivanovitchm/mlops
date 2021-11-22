@@ -86,3 +86,11 @@
 	- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/ivanovitchm/mlops/blob/main/week_04/Production_Ready_Code.ipynb) [Production ready code](https://github.com/ivanovitchm/mlops/blob/main/week_04/Production_Ready_Code.ipynb)
 	- Data Visualization Fundamentals [[Link]](https://app.dataquest.io/course/data-visualization-fundamentals)
 	- Storytelling Data Visualization and Information Design [[Link]](https://app.dataquest.io/course/storytelling-information-design)
+
+**Week 05** Building a Reproducible Model Workflow [[Slide]](https://github.com/ivanovitchm/mlops/blob/main/week_05/week_05_building_a_reproducible_model_workflow.pdf)
+
+- Outline [[Video]](https://loom.com/share/ffda8c71fc73420bb033fec66154e7fd)
+- Business Reflections [[Video]](https://loom.com/share/512b085e97df4ca4ad1e9b8794d271a2)
+- Introduction to MLOps [[Video]](https://loom.com/share/3a900fc1485b485ebbff37aa48dd8a2c)
+- A brief history of MLOps and Tools [[Video]](https://loom.com/share/a24d9f4fb71941439d3623b07e5462ed)
+- Tools and environment installation [[Video]](https://loom.com/share/3f7ee44dbf00405a97610de213c74027) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/ivanovitchm/mlops/blob/main/week_05/code/README.ipynb) [README](https://github.com/ivanovitchm/mlops/blob/main/week_05/code/README.ipynb)
