@@ -104,3 +104,7 @@
 - Guided Exercise - Build a MLflow component [[Video]](https://loom.com/share/1d31eef285e8462d8b23a70c904952e6) [Guided Exercise 02](https://github.com/ivanovitchm/mlops/blob/main/week_05/code/guide_exercise_02.zip)
 - Linking together the components MLflow + Hydra [[Video]](https://loom.com/share/45eafb8eada046939b9747b2fbff689f)
 - Guided Exercise - Multiples MLflow components + Hydra [[Video]](https://loom.com/share/a9bf75d308464f5b8945cf7e4d63357d) [Guided Exercise 03](https://github.com/ivanovitchm/mlops/blob/main/week_05/code/guide_exercise_03.zip)
+- Additional Material
+	- Context Managers [[Link]](https://app.dataquest.io/c/72/m/412/context-managers/2/using-context-managers)
+	- Introduction to Decorators [[Link]](https://app.dataquest.io/c/72/m/413/introduction-to-decorators)
+	- Decorators: advanced [[Link]](https://app.dataquest.io/c/72/m/414/decorators%3A-advanced)
