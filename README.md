@@ -94,3 +94,6 @@
 - Introduction to MLOps [[Video]](https://loom.com/share/3a900fc1485b485ebbff37aa48dd8a2c)
 - A brief history of MLOps and Tools [[Video]](https://loom.com/share/a24d9f4fb71941439d3623b07e5462ed)
 - Tools and environment installation [[Video]](https://loom.com/share/3f7ee44dbf00405a97610de213c74027) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/ivanovitchm/mlops/blob/main/week_05/code/README.ipynb) [README](https://github.com/ivanovitchm/mlops/blob/main/week_05/code/README.ipynb)
+- Tools and environment installation cont. [[Video]](https://loom.com/share/c7e2699454fe41b2a1e07fcdfd0ae636) [environment.yml](https://github.com/ivanovitchm/mlops/blob/main/week_05/code/environment.yml)
+- Machine Learning Pipelines [[Video]](https://loom.com/share/0a9d618a414c4e00b919f37c0f0f3fe0)
+- Machine Learning Pipelines - Command Line Interface [[Video]](https://loom.com/share/ce45492a9cbf474999ca17079e18f2bf) [my_script.py](https://github.com/ivanovitchm/mlops/blob/main/week_05/code/my_script.py)
