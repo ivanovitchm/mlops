@@ -97,3 +97,4 @@
 - Tools and environment installation cont. [[Video]](https://loom.com/share/c7e2699454fe41b2a1e07fcdfd0ae636) [environment.yml](https://github.com/ivanovitchm/mlops/blob/main/week_05/code/environment.yml)
 - Machine Learning Pipelines [[Video]](https://loom.com/share/0a9d618a414c4e00b919f37c0f0f3fe0)
 - Machine Learning Pipelines - Command Line Interface [[Video]](https://loom.com/share/ce45492a9cbf474999ca17079e18f2bf) [my_script.py](https://github.com/ivanovitchm/mlops/blob/main/week_05/code/my_script.py)
+- Versioning Data and Artifacts [[Upload and Version Artifacts]](https://loom.com/share/dc0afb390ea1477a9fa0ed94c3771b32) [my_script.py](https://github.com/ivanovitchm/mlops/blob/main/week_05/code/upload-and-version-artifacts.ipynb)
