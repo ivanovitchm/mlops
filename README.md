@@ -102,3 +102,5 @@
 - MLflow Projects [[Video]](https://loom.com/share/6cc212dcf75b44599611aa3554d59baf)
 - Introduction to YAML [[Video]](https://loom.com/share/21091ed6345f412bb55d641f71b80846) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/ivanovitchm/mlops/blob/main/week_05/code/Introduction_to_YAML.ipynb) [YAML Intro.](https://github.com/ivanovitchm/mlops/blob/main/week_05/code/Introduction_to_YAML.ipynb)
 - Guided Exercise - Build a MLflow component [[Video]](https://loom.com/share/1d31eef285e8462d8b23a70c904952e6) [Guided Exercise 02](https://github.com/ivanovitchm/mlops/blob/main/week_05/code/guide_exercise_02.zip)
+- Linking together the components MLflow + Hydra [[Video]](https://loom.com/share/45eafb8eada046939b9747b2fbff689f)
+- Guided Exercise - Multiples MLflow components + Hydra [[Video]](https://loom.com/share/a9bf75d308464f5b8945cf7e4d63357d) [Guided Exercise 03](https://github.com/ivanovitchm/mlops/blob/main/week_05/code/guide_exercise_03.zip)
