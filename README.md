@@ -118,4 +118,4 @@
 - Data Segregation - train, dev and test sets [[Video]](https://loom.com/share/5413392ea05941db96bd9934b6c13e50)
 - Bias vs Variance [[Video]](https://loom.com/share/c541eab8e9e44116bce1b11d70c8565c)
 - Optional hands on Dataquest.io
-	- Machine Learning Fundamentals [link](https://www.dataquest.io/course/machine-learning-fundamentals/)
+	- Machine Learning Fundamentals [[link]](https://www.dataquest.io/course/machine-learning-fundamentals/)
