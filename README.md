@@ -108,3 +108,12 @@
 	- Context Managers [[Link]](https://app.dataquest.io/c/72/m/412/context-managers/2/using-context-managers)
 	- Introduction to Decorators [[Link]](https://app.dataquest.io/c/72/m/413/introduction-to-decorators)
 	- Decorators: advanced [[Link]](https://app.dataquest.io/c/72/m/414/decorators%3A-advanced)
+
+**Week 06** Building a Reproducible Model Workflow Cont. - Introduction to Machine Learning [[Slide]](https://github.com/ivanovitchm/mlops/blob/main/week_06/Introduction_ml.pdf)
+
+- Outline [[Video]](https://loom.com/share/b9cb76cc4ad845f0a1854326f269a15e)
+- What is Machine Learning? [[Video]](https://loom.com/share/37e55f4c176a433b821931561a86eafd)
+- Machine Learning Types [[Video]](https://loom.com/share/c1b9603733034667800a0f9f5c9df29b)
+- Variables, Pipeline, Controlling Chaos [[Video]](https://loom.com/share/70dc80d5eea843b890c602bb56e0b3cf)
+- Data Segregation - train, dev and test sets [[Video]](https://loom.com/share/5413392ea05941db96bd9934b6c13e50)
+- Bias vs Variance [[Video]](https://loom.com/share/c541eab8e9e44116bce1b11d70c8565c)
