@@ -1,4 +1,4 @@
-name: download_data_eda
+name: download_data
 conda_env: conda.yml
 
 entry_points:
