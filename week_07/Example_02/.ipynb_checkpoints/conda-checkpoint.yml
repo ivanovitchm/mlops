@@ -1,0 +1,10 @@
+name: download_data
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pandas=1.2.3
+  - pip=20.3.3
+  - pyarrow=2.0
+  - pip:
+      - wandb==0.10.21
