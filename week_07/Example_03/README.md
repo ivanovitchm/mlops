@@ -9,7 +9,7 @@ To run the project, execute the script:
 ```bash
 mlflow run . -P input_artifact="week_07_preprocessing/preprocessed_data.csv:latest" \
              -P artifact_root="data" \
-             -P artifact_type="raw_data" \
+             -P artifact_type="trainvaltest_data" \
              -P test_size=0.3 \
              -P stratify="high_income" \
              -P random_state="13"
