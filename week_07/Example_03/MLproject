@@ -13,7 +13,7 @@ entry_points:
       artifact_type:
         description: Type of the artifact to create
         type: str
-        default: raw_data
+        default: trainvaltest_data
       test_size:
         description: Ratio of dataset used to test
         type: float
