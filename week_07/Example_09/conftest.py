@@ -31,7 +31,7 @@ def data(request):
 
 @pytest.fixture(scope='session')
 def ks_alpha(request):
-     ks_alpha = request.config.option.ks_alpha
+    ks_alpha = request.config.option.ks_alpha
 
     if ks_alpha is None:
         pytest.fail("--ks_threshold missing on command line")

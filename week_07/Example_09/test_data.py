@@ -12,7 +12,7 @@ def test_kolmogorov_smirnov(data, ks_alpha):
         "capital_loss",
         "hours_per_week"
     ]
-    
+
     # Let's decide the Type I error probability (related to the False Positive Rate)
     alpha = 0.05
     # Bonferroni correction for multiple hypothesis testing
