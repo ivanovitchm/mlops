@@ -1,0 +1,4 @@
+artifact_location: file:///Users/ivanovitchsilva/mlops/week_07/Example_08/mlruns/0
+experiment_id: '0'
+lifecycle_stage: active
+name: Default

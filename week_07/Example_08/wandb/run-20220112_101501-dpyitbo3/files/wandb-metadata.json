@@ -1,0 +1,25 @@
+{
+    "os": "macOS-11.6-x86_64-i386-64bit",
+    "python": "3.9.9",
+    "heartbeatAt": "2022-01-12T13:15:03.146606",
+    "startedAt": "2022-01-12T13:15:01.061865",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        ".",
+        "-s",
+        "-vv"
+    ],
+    "state": "running",
+    "program": "/Users/ivanovitchsilva/opt/anaconda3/envs/mlflow-ccb64138e78173c6ca5797fc0a30fb2c829dea93/bin/pytest",
+    "git": {
+        "remote": "https://github.com/ivanovitchm/mlops.git",
+        "commit": "2b0c4ca3a3cf7036604c3c9f4c2b4cc5a34c960f"
+    },
+    "email": "ivan@imd.ufrn.br",
+    "root": "/Users/ivanovitchsilva/mlops",
+    "host": "Ivanovitchs-MacBook-Air.local",
+    "username": "ivanovitchsilva",
+    "executable": "/Users/ivanovitchsilva/opt/anaconda3/envs/mlflow-ccb64138e78173c6ca5797fc0a30fb2c829dea93/bin/python"
+}
