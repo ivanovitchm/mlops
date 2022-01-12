@@ -125,3 +125,12 @@
 - Outline [[Video]](https://loom.com/share/032bb30d236f4be392185df4421e1ff5)
 - Extract, Transform, Load (ETL)
 	- Exploratory Data Analysis (EDA) Video [[Part I]](https://loom.com/share/f391b6d758af40df854c943ec3704e86) [[Part II]](https://loom.com/share/67cd6859258d4b148cb7401935fdb918) [[Part III]](https://loom.com/share/1f18f337ed814d79996e94047c5adacf) [[Part IV]](https://loom.com/share/6abb0db9c70f46a0b2a09d9ad9c09a1b) [[Part V]](https://loom.com/share/c59cc97a9a774c8e92a3caa39956cd7e) [[Source-Code]](https://github.com/ivanovitchm/mlops/tree/main/week_07/Example_01)
+	- Preprocessing [[Video]](https://loom.com/share/2c9883c138ed478e89359c3f13c23ea3) [[Source-Code]](https://github.com/ivanovitchm/mlops/tree/main/week_07/Example_02)
+- Data Segregation [[Video]](https://loom.com/share/468d3e170178434c8dc1ac38988acbfb) [[Source-Code]](https://github.com/ivanovitchm/mlops/tree/main/week_07/Example_03)
+- Data Checks
+	- Data Validation [[Video](https://loom.com/share/6c784607da97493f8989106ec05ef627) [[Source-Code]](https://github.com/ivanovitchm/mlops/tree/main/week_07/Example_04)
+	- Deterministic Test [[Video]](https://loom.com/share/7608747c200846e1a7c7b8c2e012a173) [[Source-Code]](https://github.com/ivanovitchm/mlops/tree/main/week_07/Example_05)
+	- Non-Deterministic Test [[Video]](https://loom.com/share/66c4de310660494f942a02065f46147d) [[Source-Code]](https://github.com/ivanovitchm/mlops/tree/main/week_07/Example_06)
+	- Multiple Hypothesis Testing [[Video]](https://loom.com/share/c41c7c258ccf44dc9a40d85db9eb8ac8) [[Source-Code]](https://github.com/ivanovitchm/mlops/tree/main/week_07/Example_07)
+	- Multiple Hypothesis Testing Using MLFlow [[Video]](https://loom.com/share/c28fa645c36c4293be757c80a046a9ee) [[Source-Code]](https://github.com/ivanovitchm/mlops/tree/main/week_07/Example_08)
+	- Multiple Hypothesis Testing Using Parameters in PyTest [[Video]](https://loom.com/share/2a69248e155c4a6eb858f21ccac733a7) [[Source-Code]](https://github.com/ivanovitchm/mlops/tree/main/week_07/Example_09)
