@@ -119,3 +119,9 @@
 - Bias vs Variance [[Video]](https://loom.com/share/c541eab8e9e44116bce1b11d70c8565c)
 - Optional hands on Dataquest.io
 	- Machine Learning Fundamentals [[Link]](https://www.dataquest.io/course/machine-learning-fundamentals/)
+
+**Week 07** Building a Reproducible Model Workflow Cont. - ETL, Data Checks, Data Segregation [[Slide]](https://github.com/ivanovitchm/mlops/blob/main/week_07/Week%2007%20-%20ETL%2C%20Data%20Checks%2C%20Data%20Segregation.pdf)
+
+- Outline [[Video]](https://loom.com/share/032bb30d236f4be392185df4421e1ff5)
+- Extract, Transform, Load (ETL)
+	- Exploratory Data Analysis (EDA) Video [[Part I]](https://loom.com/share/f391b6d758af40df854c943ec3704e86) [[Part II]](https://loom.com/share/67cd6859258d4b148cb7401935fdb918) [[Part III]](https://loom.com/share/1f18f337ed814d79996e94047c5adacf) [[Part IV]](https://loom.com/share/6abb0db9c70f46a0b2a09d9ad9c09a1b) [[Part V]](https://loom.com/share/c59cc97a9a774c8e92a3caa39956cd7e) [[Source-Code]](https://github.com/ivanovitchm/mlops/tree/main/week_07/Example_01)
