@@ -136,15 +136,16 @@
 	- Multiple Hypothesis Testing Using Parameters in PyTest [[Video]](https://loom.com/share/2a69248e155c4a6eb858f21ccac733a7) [[Source-Code]](https://github.com/ivanovitchm/mlops/tree/main/week_07/Example_09)
 
 **Week 08** Building a Reproducible Model Workflow Cont. - Train, Validation and Experiment Tracking
-	- A brief review [[Video]](https://loom.com/share/489e44bb845e4f5981f852b3d8e2677c)
-	- Decision Trees
-		- Introduction [[Video]](https://loom.com/share/26fa8f8c45c942c5931d4523163f3fb5)
-		- Mathematical Foundations [[Video]](https://loom.com/share/3325e85ad1824e42934949a3dfa46509)
-	- Evaluation Metrics
-		- How to choose an evaluation metric? [[Video]](https://loom.com/share/8d70d3dee2d242a3b149da98c0a743f0)
-		- Threshold metrics [[Video]](https://loom.com/share/60918ec95a7f4345979fa1888e4bbd91)
-		- Ranking metrics [[Video]](https://loom.com/share/91b7424fe1c54158ad7166f6dd3ad34d)
-	- Implementing Pipelines
-		- MLOps Level 0 with Pipeline incorporating train [[Part I]](https://loom.com/share/8bb86b419f264aad8e30451cb1611cc4) [[Part II]](https://loom.com/share/73829e3b55ab44d7bc7f81aa416e84f6) [[Part III]](https://loom.com/share/1c41dd3896d74d51a24e4ccd2b299a06) [[Source-Code]](https://github.com/ivanovitchm/mlops/tree/main/week_08/Example_01)
-		- MLOps Level 0 with Pipeline incorporating train and preprocessing [[Part I]](https://loom.com/share/892d93bf82234c908d45bb5baffba929) [[Part II]](https://loom.com/share/c70944ddb2af410da470c2a8fd52ace5) [[Part III]](https://loom.com/share/8af1b2cbfe5e4bb88da7ca53a5123263) [[Source-Code]](https://github.com/ivanovitchm/mlops/tree/main/week_08/Example_02) 
-		- MLOps Level 1 with Pipeline incorporating train and preprocessing [[Part I]](https://loom.com/share/f7fa9aea76c34a968cbadec4c6455906) [[Part II]](https://loom.com/share/c485890d580949da936bd98f0e4ce310) [[Source-Code]](https://github.com/ivanovitchm/mlops/tree/main/week_08/Example_03)
+
+- A brief review [[Video]](https://loom.com/share/489e44bb845e4f5981f852b3d8e2677c)
+- Decision Trees
+	- Introduction [[Video]](https://loom.com/share/26fa8f8c45c942c5931d4523163f3fb5)
+	- Mathematical Foundations [[Video]](https://loom.com/share/3325e85ad1824e42934949a3dfa46509)
+- Evaluation Metrics
+	- How to choose an evaluation metric? [[Video]](https://loom.com/share/8d70d3dee2d242a3b149da98c0a743f0)
+	- Threshold metrics [[Video]](https://loom.com/share/60918ec95a7f4345979fa1888e4bbd91)
+	- Ranking metrics [[Video]](https://loom.com/share/91b7424fe1c54158ad7166f6dd3ad34d)
+- Implementing Pipelines
+	- MLOps Level 0 with Pipeline incorporating train [[Part I]](https://loom.com/share/8bb86b419f264aad8e30451cb1611cc4) [[Part II]](https://loom.com/share/73829e3b55ab44d7bc7f81aa416e84f6) [[Part III]](https://loom.com/share/1c41dd3896d74d51a24e4ccd2b299a06) [[Source-Code]](https://github.com/ivanovitchm/mlops/tree/main/week_08/Example_01)
+	- MLOps Level 0 with Pipeline incorporating train and preprocessing [[Part I]](https://loom.com/share/892d93bf82234c908d45bb5baffba929) [[Part II]](https://loom.com/share/c70944ddb2af410da470c2a8fd52ace5) [[Part III]](https://loom.com/share/8af1b2cbfe5e4bb88da7ca53a5123263) [[Source-Code]](https://github.com/ivanovitchm/mlops/tree/main/week_08/Example_02) 
+	- MLOps Level 1 with Pipeline incorporating train and preprocessing [[Part I]](https://loom.com/share/f7fa9aea76c34a968cbadec4c6455906) [[Part II]](https://loom.com/share/c485890d580949da936bd98f0e4ce310) [[Source-Code]](https://github.com/ivanovitchm/mlops/tree/main/week_08/Example_03)
