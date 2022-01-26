@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/ivanovitchsilva/mlops/week_08/Example_03/mlruns/0/8d6190b707da42a48d9e311256919e62/artifacts
+end_time: 1643196046655
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 8d6190b707da42a48d9e311256919e62
+run_uuid: 8d6190b707da42a48d9e311256919e62
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1643196007251
+status: 3
+tags: []
+user_id: ivanovitchsilva

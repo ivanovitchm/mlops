@@ -1,0 +1,17 @@
+
+26-01-2022 08:20:15 Downloading and reading train artifact
+26-01-2022 08:20:18 Spliting data into train/val
+26-01-2022 08:20:18 x train: (15942, 14)
+26-01-2022 08:20:18 y train: (15942,)
+26-01-2022 08:20:18 x val: (6833, 14)
+26-01-2022 08:20:18 y val: (6833,)
+26-01-2022 08:20:18 Removal Outliers
+26-01-2022 08:20:18 x_train shape [original]: (15942, 14)
+26-01-2022 08:20:18 x_train shape [outlier removal]: (14668, 14)
+26-01-2022 08:20:18 Encoding Target Variable
+26-01-2022 08:20:18 Classes [0, 1]: [' <=50K' ' >50K']
+26-01-2022 08:20:18 Pipeline generation
+26-01-2022 08:20:18 Training
+26-01-2022 08:20:18 Infering
+26-01-2022 08:20:18 Evaluation metrics
+26-01-2022 08:20:24 Uploading figures
