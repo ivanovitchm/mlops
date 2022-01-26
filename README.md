@@ -136,6 +136,7 @@
 	- Multiple Hypothesis Testing Using Parameters in PyTest [[Video]](https://loom.com/share/2a69248e155c4a6eb858f21ccac733a7) [[Source-Code]](https://github.com/ivanovitchm/mlops/tree/main/week_07/Example_09)
 
 **Week 08** Building a Reproducible Model Workflow Cont. - Train, Validation and Experiment Tracking
+
 	- A brief review [[Video]](https://loom.com/share/489e44bb845e4f5981f852b3d8e2677c)
 	- Decision Trees
 		- Introduction [[Video]](https://loom.com/share/26fa8f8c45c942c5931d4523163f3fb5)
