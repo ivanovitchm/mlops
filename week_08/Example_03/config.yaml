@@ -1,0 +1,9 @@
+main:
+  project_name: week_08_example_03
+  experiment_name: dev
+data:
+  train_data: "week_07_data_segregation/train_data.csv:latest"
+decision_tree:
+  criterion: "entropy"
+  splitter: "best"
+  max_depth: null
