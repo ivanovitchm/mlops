@@ -4,7 +4,7 @@ In this exercise we will write an inference pipeline.
 ## Execution Steps
 
 
-To run the project, execute this scripts:
+To run the project, execute these scripts:
 
 ### Experiment 1
 

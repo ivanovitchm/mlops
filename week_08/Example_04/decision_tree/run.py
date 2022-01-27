@@ -361,7 +361,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--model_config",
         type=str,
-        help="Path to a YAML file containing the configuration for the random forest",
+        help="Path to a YAML file containing the configuration for the Decision Tree",
         required=True,
     )
 
