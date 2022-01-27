@@ -1,6 +1,6 @@
 """
 Creator: Ivanovitch Silva
-Date: 25 Jan. 2022
+Date: 26 Jan. 2022
 Implement a pipeline component to train a decision tree model.
 """
 
@@ -12,6 +12,8 @@ import yaml
 import tempfile
 import mlflow
 from mlflow.models import infer_signature
+from sklearn.impute import SimpleImputer
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import wandb
@@ -31,9 +33,6 @@ from sklearn.metrics import ConfusionMatrixDisplay
 from sklearn.metrics import accuracy_score
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.tree import plot_tree
-
-# option
-# from sklearn.impute import SimpleImputer
 
 # configure logging
 logging.basicConfig(level=logging.INFO,
@@ -61,9 +60,9 @@ class FeatureSelector( BaseEstimator, TransformerMixin ):
 # Handling categorical features 
 class CategoricalTransformer( BaseEstimator, TransformerMixin ):
     # Class constructor method that takes one boolean as its argument
-    def __init__(self, new_features=True):
+    def __init__(self, new_features=True, colnames=None):
         self.new_features = new_features
-        self.colnames = None
+        self.colnames = colnames
 
     #Return self nothing else to do here    
     def fit( self, X, y = None ):
@@ -73,8 +72,8 @@ class CategoricalTransformer( BaseEstimator, TransformerMixin ):
         return self.colnames.tolist()
 
     # Transformer method we wrote for this transformer 
-    def transform(self, X , y = None ):
-        df = X.copy()
+    def transform(self, X , y = None):
+        df = pd.DataFrame(X,columns=self.colnames)
 
         # customize feature?
         # how can I identify this one? EDA!!!!
@@ -119,9 +118,9 @@ class NumericalTransformer( BaseEstimator, TransformerMixin ):
     # model 0: minmax
     # model 1: standard
     # model 2: without scaler
-    def __init__(self, model = 0):
+    def __init__(self, model = 0, colnames=None):
         self.model = model
-        self.colnames = None
+        self.colnames = colnames
 
     #Return self nothing else to do here    
     def fit( self, X, y = None ):
@@ -133,7 +132,7 @@ class NumericalTransformer( BaseEstimator, TransformerMixin ):
 
     #Transformer method we wrote for this transformer 
     def transform(self, X , y = None ):
-        df = X.copy()
+        df = pd.DataFrame(X,columns=self.colnames)
 
         # update columns name
         self.colnames = df.columns.tolist()
@@ -223,14 +222,17 @@ def process_args(args):
 
     # Defining the steps in the categorical pipeline 
     categorical_pipeline = Pipeline(steps = [('cat_selector',FeatureSelector(categorical_features)),
-                                             ('cat_transformer', CategoricalTransformer()),
+                                             ('imputer_cat', SimpleImputer(strategy="most_frequent")),
+                                             ('cat_transformer', CategoricalTransformer(colnames=categorical_features)),
                                              #('cat_encoder','passthrough'
                                              ('cat_encoder',OneHotEncoder(sparse=False,drop="first"))
                                             ]
                                    )
     # Defining the steps in the numerical pipeline     
     numerical_pipeline = Pipeline(steps = [('num_selector', FeatureSelector(numerical_features)),
-                                           ('num_transformer', NumericalTransformer(model_config["numerical_pipe"]["model"]))
+                                           ('imputer_num', SimpleImputer(strategy="median")),
+                                           ('num_transformer', NumericalTransformer(model_config["numerical_pipe"]["model"],
+                                                                                   colnames=numerical_features))
                                           ]
                                  )
 
@@ -283,10 +285,10 @@ def process_args(args):
 
     # get columns names from categorial columns
     features_cat = features_full.get_params()["cat_pipeline"]
-    features_cat = features_cat[2].get_feature_names_out().tolist()
+    features_cat = features_cat[3].get_feature_names_out().tolist()
     
     # get columns names from numerical columns
-    features_num = features_full.get_params()["num_pipeline"][1].get_feature_names()
+    features_num = features_full.get_params()["num_pipeline"][2].get_feature_names()
     
     fig_tree, ax_tree = plt.subplots(1,1, figsize=(15, 10))
     plot_tree(pipe["classifier"], 
