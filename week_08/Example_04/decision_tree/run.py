@@ -8,6 +8,10 @@ import argparse
 import logging
 import json
 
+import yaml
+import tempfile
+import mlflow
+from mlflow.models import infer_signature
 import pandas as pd
 import matplotlib.pyplot as plt
 import wandb
@@ -150,7 +154,7 @@ class NumericalTransformer( BaseEstimator, TransformerMixin ):
 
 def process_args(args):
 
-    # project name comes from config.yaml >> project_name: week_08_example_03
+    # project name comes from config.yaml >> project_name: week_08_example_04
     run = wandb.init(job_type="train")
 
     logger.info("Downloading and reading train artifact")
@@ -202,6 +206,15 @@ def process_args(args):
     
     # Pipeline generation
     logger.info("Pipeline generation")
+    
+    # Get the configuration for the pipeline
+    with open(args.model_config) as fp:
+        model_config = yaml.safe_load(fp)
+        
+    # Add it to the W&B configuration so the values for the hyperparams
+    # are tracked
+    wandb.config.update(model_config)
+    
     # Categrical features to pass down the categorical pipeline 
     categorical_features = x_train.select_dtypes("object").columns.to_list()
 
@@ -217,7 +230,7 @@ def process_args(args):
                                    )
     # Defining the steps in the numerical pipeline     
     numerical_pipeline = Pipeline(steps = [('num_selector', FeatureSelector(numerical_features)),
-                                           ('num_transformer', NumericalTransformer())
+                                           ('num_transformer', NumericalTransformer(model_config["numerical_pipe"]["model"]))
                                           ]
                                  )
 
@@ -227,19 +240,11 @@ def process_args(args):
                                                                    ('num_pipeline', numerical_pipeline)
                                                                   ]
                                               )
-    
-    # Modeling and Training
-    # Get the configuration for the model
-    with open(args.model_config) as fp:
-        model_config = json.load(fp)
-        
-    # Add it to the W&B configuration so the values for the hyperparams
-    # are tracked
-    wandb.config.update(model_config)
+   
     
     # The full pipeline 
     pipe = Pipeline(steps = [('full_pipeline', full_pipeline_preprocessing),
-                             ("classifier",DecisionTreeClassifier(**model_config))
+                             ("classifier",DecisionTreeClassifier(**model_config["decision_tree"]))
                             ]
                    )
 
@@ -298,7 +303,41 @@ def process_args(args):
             "tree": wandb.Image(fig_tree)
         }
     )
+    
+    # Export if required
+    if args.export_artifact != "null":
+        export_model(run, pipe, x_val, predict, args.export_artifact)
 
+        
+def export_model(run, pipe, x_val, val_pred, export_artifact):
+
+    # Infer the signature of the model
+    signature = infer_signature(x_val, val_pred)
+
+    with tempfile.TemporaryDirectory() as temp_dir:
+
+        export_path = os.path.join(temp_dir, "model_export")
+
+        mlflow.sklearn.save_model(
+            pipe,
+            export_path,
+            serialization_format=mlflow.sklearn.SERIALIZATION_FORMAT_CLOUDPICKLE,
+            signature=signature,
+            input_example=x_val.iloc[:2],
+        )
+
+        artifact = wandb.Artifact(
+            export_artifact,
+            type="model_export",
+            description="Decision Tree pipeline export",
+        )
+        artifact.add_dir(export_path)
+
+        run.log_artifact(artifact)
+
+        # Make sure the artifact is uploaded before the temp dir
+        # gets deleted
+        artifact.wait()        
     
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(

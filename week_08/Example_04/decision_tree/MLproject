@@ -8,8 +8,14 @@ entry_points:
         description: Fully-qualified name for the training data artifact
         type: str
       model_config:
-        description: JSON blurb containing the configuration for the decision tree
+        description: YML blurb containing the configuration for the decision tree
         type: str
+      export_artifact:
+        description: Name for the artifact to use for the model export. Use "null" if you do not want to export.
+        type: str
+        default: null
     command: >-
       python run.py --train_data {train_data} \
-                    --model_config {model_config}
+                    --model_config {model_config} \
+                    --export_artifact {export_artifact}
+                    

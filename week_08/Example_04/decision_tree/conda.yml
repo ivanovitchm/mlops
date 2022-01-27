@@ -11,3 +11,4 @@ dependencies:
   - pip:
       - wandb==0.12.9
       - mlflow==1.14.1
+      - omegaconf==2.1.1
