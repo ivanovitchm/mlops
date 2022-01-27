@@ -1,7 +1,7 @@
 """
 Creator: Ivanovitch Silva
 Date: 26 Jan. 2022
-Test evaluation.
+Test dataset evaluation
 """
 
 import argparse
@@ -55,7 +55,7 @@ def process_args(args):
     pipe = mlflow.sklearn.load_model(model_export_path)
 
     ## Predict test data
-    predict = pipe.predic(x_test)
+    predict = pipe.predict(x_test)
 
     # Evaluation Metrics
     logger.info("Evaluation metrics")
@@ -107,6 +107,6 @@ if __name__ == "__main__":
         required=True,
     )
 
-    args = parser.parse_args()
+    ARGS = parser.parse_args()
 
-    go(args)
+    process_args(ARGS)
