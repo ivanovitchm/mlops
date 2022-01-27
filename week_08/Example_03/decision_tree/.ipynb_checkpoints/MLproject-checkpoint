@@ -1,0 +1,15 @@
+name: decision_tree
+conda_env: conda.yml
+
+entry_points:
+  main:
+    parameters:
+      train_data:
+        description: Fully-qualified name for the training data artifact
+        type: str
+      model_config:
+        description: JSON blurb containing the configuration for the decision tree
+        type: str
+    command: >-
+      python run.py --train_data {train_data} \
+                    --model_config {model_config}

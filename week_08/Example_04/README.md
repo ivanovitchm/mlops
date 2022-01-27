@@ -37,3 +37,9 @@ mlflow run . -P hydra_options="-m decision_tree_pipeline.decision_tree.criterion
 ```
 
 Hydra supports also more sophisticated algorithms than grid search. Refer to the sweepers [documentation](https://hydra.cc/docs/plugins/ax_sweeper) to find out more.
+
+### Experiment 6
+
+```bash
+mlflow run . -P hydra_options="decision_tree_pipeline.export_artifact=model_export"
+```

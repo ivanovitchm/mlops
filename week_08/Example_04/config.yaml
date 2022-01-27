@@ -10,4 +10,4 @@ decision_tree_pipeline:
     max_depth: null
   numerical_pipe:
     model: 0
-  export_artifact: "model_export"
+  export_artifact: "null"

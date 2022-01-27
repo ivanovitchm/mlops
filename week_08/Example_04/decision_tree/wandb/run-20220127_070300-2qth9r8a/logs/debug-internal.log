@@ -1,0 +1,206 @@
+2022-01-27 07:03:01,322 INFO    MainThread:32961 [internal.py:wandb_internal():87] W&B internal server running at pid: 32961, started at: 2022-01-27 07:03:01.322787
+2022-01-27 07:03:01,324 DEBUG   HandlerThread:32961 [handler.py:handle_request():130] handle_request: check_version
+2022-01-27 07:03:01,324 INFO    WriterThread:32961 [datastore.py:open_for_write():77] open: /Users/ivanovitchsilva/mlops/week_08/Example_04/decision_tree/wandb/run-20220127_070300-2qth9r8a/run-2qth9r8a.wandb
+2022-01-27 07:03:01,324 DEBUG   SenderThread:32961 [sender.py:send():234] send: header
+2022-01-27 07:03:01,324 DEBUG   SenderThread:32961 [sender.py:send_request():248] send_request: check_version
+2022-01-27 07:03:01,657 DEBUG   SenderThread:32961 [sender.py:send():234] send: run
+2022-01-27 07:03:02,151 INFO    SenderThread:32961 [dir_watcher.py:__init__():169] watching files in: /Users/ivanovitchsilva/mlops/week_08/Example_04/decision_tree/wandb/run-20220127_070300-2qth9r8a/files
+2022-01-27 07:03:02,152 INFO    SenderThread:32961 [sender.py:_start_run_threads():804] run started: 2qth9r8a with start time 1643277780
+2022-01-27 07:03:02,152 DEBUG   SenderThread:32961 [sender.py:send():234] send: summary
+2022-01-27 07:03:02,153 INFO    SenderThread:32961 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-27 07:03:02,160 DEBUG   HandlerThread:32961 [handler.py:handle_request():130] handle_request: run_start
+2022-01-27 07:03:02,170 DEBUG   HandlerThread:32961 [meta.py:__init__():40] meta init
+2022-01-27 07:03:02,171 DEBUG   HandlerThread:32961 [meta.py:__init__():54] meta init done
+2022-01-27 07:03:02,171 DEBUG   HandlerThread:32961 [meta.py:probe():214] probe
+2022-01-27 07:03:02,176 DEBUG   HandlerThread:32961 [meta.py:_setup_git():204] setup git
+2022-01-27 07:03:02,301 DEBUG   HandlerThread:32961 [meta.py:_setup_git():211] setup git done
+2022-01-27 07:03:02,301 DEBUG   HandlerThread:32961 [meta.py:_save_pip():58] save pip
+2022-01-27 07:03:02,301 DEBUG   HandlerThread:32961 [meta.py:_save_pip():72] save pip done
+2022-01-27 07:03:02,301 DEBUG   HandlerThread:32961 [meta.py:_save_conda():79] save conda
+2022-01-27 07:03:03,158 INFO    Thread-8  :32961 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/ivanovitchsilva/mlops/week_08/Example_04/decision_tree/wandb/run-20220127_070300-2qth9r8a/files/requirements.txt
+2022-01-27 07:03:03,158 INFO    Thread-8  :32961 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/ivanovitchsilva/mlops/week_08/Example_04/decision_tree/wandb/run-20220127_070300-2qth9r8a/files/wandb-summary.json
+2022-01-27 07:03:03,158 INFO    Thread-8  :32961 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/ivanovitchsilva/mlops/week_08/Example_04/decision_tree/wandb/run-20220127_070300-2qth9r8a/files/conda-environment.yaml
+2022-01-27 07:03:03,284 DEBUG   HandlerThread:32961 [meta.py:_save_conda():89] save conda done
+2022-01-27 07:03:03,285 DEBUG   HandlerThread:32961 [meta.py:probe():252] probe done
+2022-01-27 07:03:03,288 DEBUG   SenderThread:32961 [sender.py:send():234] send: files
+2022-01-27 07:03:03,288 INFO    SenderThread:32961 [sender.py:_save_file():939] saving file wandb-metadata.json with policy now
+2022-01-27 07:03:03,292 DEBUG   HandlerThread:32961 [handler.py:handle_request():130] handle_request: stop_status
+2022-01-27 07:03:03,292 DEBUG   SenderThread:32961 [sender.py:send_request():248] send_request: stop_status
+2022-01-27 07:03:04,162 INFO    Thread-8  :32961 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/ivanovitchsilva/mlops/week_08/Example_04/decision_tree/wandb/run-20220127_070300-2qth9r8a/files/conda-environment.yaml
+2022-01-27 07:03:04,162 INFO    Thread-8  :32961 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/ivanovitchsilva/mlops/week_08/Example_04/decision_tree/wandb/run-20220127_070300-2qth9r8a/files/output.log
+2022-01-27 07:03:04,162 INFO    Thread-8  :32961 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/ivanovitchsilva/mlops/week_08/Example_04/decision_tree/wandb/run-20220127_070300-2qth9r8a/files/wandb-metadata.json
+2022-01-27 07:03:04,691 INFO    Thread-11 :32961 [upload_job.py:push():137] Uploaded file /var/folders/y1/07xj9gnx39l066v29fqxzyy80000gn/T/tmpsf2iqf4gwandb/3w4kmfc5-wandb-metadata.json
+2022-01-27 07:03:05,873 DEBUG   SenderThread:32961 [sender.py:send():234] send: config
+2022-01-27 07:03:06,019 DEBUG   SenderThread:32961 [sender.py:send():234] send: summary
+2022-01-27 07:03:06,019 INFO    SenderThread:32961 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-27 07:03:06,019 DEBUG   SenderThread:32961 [sender.py:send():234] send: summary
+2022-01-27 07:03:06,019 INFO    SenderThread:32961 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-27 07:03:06,172 INFO    Thread-8  :32961 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/ivanovitchsilva/mlops/week_08/Example_04/decision_tree/wandb/run-20220127_070300-2qth9r8a/files/output.log
+2022-01-27 07:03:06,173 INFO    Thread-8  :32961 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/ivanovitchsilva/mlops/week_08/Example_04/decision_tree/wandb/run-20220127_070300-2qth9r8a/files/wandb-summary.json
+2022-01-27 07:03:08,180 INFO    Thread-8  :32961 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/ivanovitchsilva/mlops/week_08/Example_04/decision_tree/wandb/run-20220127_070300-2qth9r8a/files/output.log
+2022-01-27 07:03:14,207 INFO    Thread-8  :32961 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/ivanovitchsilva/mlops/week_08/Example_04/decision_tree/wandb/run-20220127_070300-2qth9r8a/files/output.log
+2022-01-27 07:03:18,760 DEBUG   HandlerThread:32961 [handler.py:handle_request():130] handle_request: stop_status
+2022-01-27 07:03:18,761 DEBUG   SenderThread:32961 [sender.py:send_request():248] send_request: stop_status
+2022-01-27 07:03:25,099 DEBUG   SenderThread:32961 [sender.py:send():234] send: files
+2022-01-27 07:03:25,099 INFO    SenderThread:32961 [sender.py:_save_file():939] saving file media/images/confusion_matrix_0_9369395630c2860dc112.png with policy now
+2022-01-27 07:03:25,102 DEBUG   SenderThread:32961 [sender.py:send():234] send: files
+2022-01-27 07:03:25,102 INFO    SenderThread:32961 [sender.py:_save_file():939] saving file media/images/tree_0_ede89cdb486343ea4bb5.png with policy now
+2022-01-27 07:03:25,103 DEBUG   SenderThread:32961 [sender.py:send():234] send: history
+2022-01-27 07:03:25,103 DEBUG   SenderThread:32961 [sender.py:send():234] send: summary
+2022-01-27 07:03:25,104 INFO    SenderThread:32961 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-27 07:03:25,262 INFO    Thread-8  :32961 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/ivanovitchsilva/mlops/week_08/Example_04/decision_tree/wandb/run-20220127_070300-2qth9r8a/files/wandb-summary.json
+2022-01-27 07:03:25,262 INFO    Thread-8  :32961 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/ivanovitchsilva/mlops/week_08/Example_04/decision_tree/wandb/run-20220127_070300-2qth9r8a/files/media/images/confusion_matrix_0_9369395630c2860dc112.png
+2022-01-27 07:03:25,262 INFO    Thread-8  :32961 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/ivanovitchsilva/mlops/week_08/Example_04/decision_tree/wandb/run-20220127_070300-2qth9r8a/files/media/images/tree_0_ede89cdb486343ea4bb5.png
+2022-01-27 07:03:25,262 INFO    Thread-8  :32961 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/ivanovitchsilva/mlops/week_08/Example_04/decision_tree/wandb/run-20220127_070300-2qth9r8a/files/media
+2022-01-27 07:03:25,262 INFO    Thread-8  :32961 [dir_watcher.py:_on_file_created():217] file/dir created: /Users/ivanovitchsilva/mlops/week_08/Example_04/decision_tree/wandb/run-20220127_070300-2qth9r8a/files/media/images
+2022-01-27 07:03:25,529 DEBUG   HandlerThread:32961 [handler.py:handle_request():130] handle_request: log_artifact
+2022-01-27 07:03:25,530 DEBUG   SenderThread:32961 [sender.py:send_request():248] send_request: log_artifact
+2022-01-27 07:03:26,407 INFO    Thread-12 :32961 [upload_job.py:push():137] Uploaded file /var/folders/y1/07xj9gnx39l066v29fqxzyy80000gn/T/tmpsf2iqf4gwandb/2oxx2ui4-media/images/confusion_matrix_0_9369395630c2860dc112.png
+2022-01-27 07:03:27,298 INFO    Thread-13 :32961 [upload_job.py:push():137] Uploaded file /var/folders/y1/07xj9gnx39l066v29fqxzyy80000gn/T/tmpsf2iqf4gwandb/kg9strqs-media/images/tree_0_ede89cdb486343ea4bb5.png
+2022-01-27 07:03:28,280 INFO    Thread-8  :32961 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/ivanovitchsilva/mlops/week_08/Example_04/decision_tree/wandb/run-20220127_070300-2qth9r8a/files/output.log
+2022-01-27 07:03:29,233 INFO    Thread-15 :32961 [upload_job.py:push():95] Uploaded file /Users/ivanovitchsilva/.cache/wandb/artifacts/obj/md5/51/b51701596aaaff930a4415bd57972f
+2022-01-27 07:03:29,233 INFO    Thread-17 :32961 [upload_job.py:push():95] Uploaded file /Users/ivanovitchsilva/.cache/wandb/artifacts/obj/md5/a2/9ab2e181f05d15780832524f5e2ffe
+2022-01-27 07:03:29,253 INFO    Thread-16 :32961 [upload_job.py:push():95] Uploaded file /Users/ivanovitchsilva/.cache/wandb/artifacts/obj/md5/a2/a9926d182237c56a8d73ff3ad9abf6
+2022-01-27 07:03:29,924 INFO    Thread-18 :32961 [upload_job.py:push():95] Uploaded file /Users/ivanovitchsilva/.cache/wandb/artifacts/obj/md5/f7/d441ac520031e96d70e575f13d3308
+2022-01-27 07:03:32,004 INFO    SenderThread:32961 [sender.py:send_request_log_artifact():968] logged artifact model_export - {'id': 'QXJ0aWZhY3Q6NzA3ODI0MzI=', 'digest': '6255471413390e56261e7c80a1688e55', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEwMzYyNzk2', 'latestArtifact': None}, 'version': 'latest'}
+2022-01-27 07:03:32,483 DEBUG   SenderThread:32961 [sender.py:send():234] send: stats
+2022-01-27 07:03:33,309 INFO    Thread-8  :32961 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/ivanovitchsilva/mlops/week_08/Example_04/decision_tree/wandb/run-20220127_070300-2qth9r8a/files/config.yaml
+2022-01-27 07:03:35,623 DEBUG   SenderThread:32961 [sender.py:send():234] send: telemetry
+2022-01-27 07:03:35,624 DEBUG   SenderThread:32961 [sender.py:send():234] send: exit
+2022-01-27 07:03:35,624 DEBUG   HandlerThread:32961 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-27 07:03:35,625 INFO    SenderThread:32961 [sender.py:send_exit():366] handling exit code: 0
+2022-01-27 07:03:35,625 INFO    SenderThread:32961 [sender.py:send_exit():368] handling runtime: 33
+2022-01-27 07:03:35,626 INFO    SenderThread:32961 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-27 07:03:35,626 INFO    SenderThread:32961 [sender.py:send_exit():374] send defer
+2022-01-27 07:03:35,627 DEBUG   SenderThread:32961 [sender.py:send_request():248] send_request: poll_exit
+2022-01-27 07:03:35,627 DEBUG   HandlerThread:32961 [handler.py:handle_request():130] handle_request: defer
+2022-01-27 07:03:35,627 INFO    HandlerThread:32961 [handler.py:handle_request_defer():147] handle defer: 0
+2022-01-27 07:03:35,627 DEBUG   SenderThread:32961 [sender.py:send_request():248] send_request: defer
+2022-01-27 07:03:35,628 INFO    SenderThread:32961 [sender.py:send_request_defer():383] handle sender defer: 0
+2022-01-27 07:03:35,628 INFO    SenderThread:32961 [sender.py:transition_state():387] send defer: 1
+2022-01-27 07:03:35,628 DEBUG   HandlerThread:32961 [handler.py:handle_request():130] handle_request: defer
+2022-01-27 07:03:35,628 INFO    HandlerThread:32961 [handler.py:handle_request_defer():147] handle defer: 1
+2022-01-27 07:03:35,683 DEBUG   SenderThread:32961 [sender.py:send_request():248] send_request: defer
+2022-01-27 07:03:35,683 INFO    SenderThread:32961 [sender.py:send_request_defer():383] handle sender defer: 1
+2022-01-27 07:03:35,683 INFO    SenderThread:32961 [sender.py:transition_state():387] send defer: 2
+2022-01-27 07:03:35,683 DEBUG   SenderThread:32961 [sender.py:send():234] send: stats
+2022-01-27 07:03:35,684 DEBUG   HandlerThread:32961 [handler.py:handle_request():130] handle_request: defer
+2022-01-27 07:03:35,684 INFO    HandlerThread:32961 [handler.py:handle_request_defer():147] handle defer: 2
+2022-01-27 07:03:35,684 DEBUG   SenderThread:32961 [sender.py:send_request():248] send_request: defer
+2022-01-27 07:03:35,684 INFO    SenderThread:32961 [sender.py:send_request_defer():383] handle sender defer: 2
+2022-01-27 07:03:35,684 INFO    SenderThread:32961 [sender.py:transition_state():387] send defer: 3
+2022-01-27 07:03:35,684 DEBUG   HandlerThread:32961 [handler.py:handle_request():130] handle_request: defer
+2022-01-27 07:03:35,684 INFO    HandlerThread:32961 [handler.py:handle_request_defer():147] handle defer: 3
+2022-01-27 07:03:35,685 DEBUG   SenderThread:32961 [sender.py:send():234] send: summary
+2022-01-27 07:03:35,685 INFO    SenderThread:32961 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-27 07:03:35,685 DEBUG   SenderThread:32961 [sender.py:send_request():248] send_request: defer
+2022-01-27 07:03:35,685 INFO    SenderThread:32961 [sender.py:send_request_defer():383] handle sender defer: 3
+2022-01-27 07:03:35,685 INFO    SenderThread:32961 [sender.py:transition_state():387] send defer: 4
+2022-01-27 07:03:35,686 DEBUG   HandlerThread:32961 [handler.py:handle_request():130] handle_request: defer
+2022-01-27 07:03:35,686 INFO    HandlerThread:32961 [handler.py:handle_request_defer():147] handle defer: 4
+2022-01-27 07:03:35,686 DEBUG   SenderThread:32961 [sender.py:send_request():248] send_request: defer
+2022-01-27 07:03:35,686 INFO    SenderThread:32961 [sender.py:send_request_defer():383] handle sender defer: 4
+2022-01-27 07:03:35,732 DEBUG   HandlerThread:32961 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-27 07:03:36,158 INFO    SenderThread:32961 [sender.py:transition_state():387] send defer: 5
+2022-01-27 07:03:36,158 DEBUG   SenderThread:32961 [sender.py:send_request():248] send_request: poll_exit
+2022-01-27 07:03:36,159 DEBUG   HandlerThread:32961 [handler.py:handle_request():130] handle_request: defer
+2022-01-27 07:03:36,159 INFO    HandlerThread:32961 [handler.py:handle_request_defer():147] handle defer: 5
+2022-01-27 07:03:36,159 DEBUG   SenderThread:32961 [sender.py:send_request():248] send_request: defer
+2022-01-27 07:03:36,159 INFO    SenderThread:32961 [sender.py:send_request_defer():383] handle sender defer: 5
+2022-01-27 07:03:36,159 INFO    SenderThread:32961 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-01-27 07:03:36,262 DEBUG   HandlerThread:32961 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-27 07:03:36,323 INFO    SenderThread:32961 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/ivanovitchsilva/mlops/week_08/Example_04/decision_tree/wandb/run-20220127_070300-2qth9r8a/files/output.log
+2022-01-27 07:03:36,324 INFO    SenderThread:32961 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/ivanovitchsilva/mlops/week_08/Example_04/decision_tree/wandb/run-20220127_070300-2qth9r8a/files/wandb-summary.json
+2022-01-27 07:03:36,324 INFO    SenderThread:32961 [dir_watcher.py:_on_file_modified():230] file/dir modified: /Users/ivanovitchsilva/mlops/week_08/Example_04/decision_tree/wandb/run-20220127_070300-2qth9r8a/files/config.yaml
+2022-01-27 07:03:36,325 INFO    SenderThread:32961 [dir_watcher.py:finish():313] scan: /Users/ivanovitchsilva/mlops/week_08/Example_04/decision_tree/wandb/run-20220127_070300-2qth9r8a/files
+2022-01-27 07:03:36,325 INFO    SenderThread:32961 [dir_watcher.py:finish():327] scan save: /Users/ivanovitchsilva/mlops/week_08/Example_04/decision_tree/wandb/run-20220127_070300-2qth9r8a/files/requirements.txt requirements.txt
+2022-01-27 07:03:36,326 INFO    SenderThread:32961 [dir_watcher.py:finish():327] scan save: /Users/ivanovitchsilva/mlops/week_08/Example_04/decision_tree/wandb/run-20220127_070300-2qth9r8a/files/output.log output.log
+2022-01-27 07:03:36,326 INFO    SenderThread:32961 [dir_watcher.py:finish():327] scan save: /Users/ivanovitchsilva/mlops/week_08/Example_04/decision_tree/wandb/run-20220127_070300-2qth9r8a/files/config.yaml config.yaml
+2022-01-27 07:03:36,336 INFO    SenderThread:32961 [dir_watcher.py:finish():327] scan save: /Users/ivanovitchsilva/mlops/week_08/Example_04/decision_tree/wandb/run-20220127_070300-2qth9r8a/files/wandb-summary.json wandb-summary.json
+2022-01-27 07:03:36,341 INFO    SenderThread:32961 [dir_watcher.py:finish():327] scan save: /Users/ivanovitchsilva/mlops/week_08/Example_04/decision_tree/wandb/run-20220127_070300-2qth9r8a/files/conda-environment.yaml conda-environment.yaml
+2022-01-27 07:03:36,343 INFO    SenderThread:32961 [dir_watcher.py:finish():327] scan save: /Users/ivanovitchsilva/mlops/week_08/Example_04/decision_tree/wandb/run-20220127_070300-2qth9r8a/files/wandb-metadata.json wandb-metadata.json
+2022-01-27 07:03:36,349 INFO    SenderThread:32961 [dir_watcher.py:finish():327] scan save: /Users/ivanovitchsilva/mlops/week_08/Example_04/decision_tree/wandb/run-20220127_070300-2qth9r8a/files/media/images/tree_0_ede89cdb486343ea4bb5.png media/images/tree_0_ede89cdb486343ea4bb5.png
+2022-01-27 07:03:36,349 INFO    SenderThread:32961 [dir_watcher.py:finish():327] scan save: /Users/ivanovitchsilva/mlops/week_08/Example_04/decision_tree/wandb/run-20220127_070300-2qth9r8a/files/media/images/confusion_matrix_0_9369395630c2860dc112.png media/images/confusion_matrix_0_9369395630c2860dc112.png
+2022-01-27 07:03:36,349 INFO    SenderThread:32961 [sender.py:transition_state():387] send defer: 6
+2022-01-27 07:03:36,350 DEBUG   SenderThread:32961 [sender.py:send_request():248] send_request: poll_exit
+2022-01-27 07:03:36,353 DEBUG   HandlerThread:32961 [handler.py:handle_request():130] handle_request: defer
+2022-01-27 07:03:36,353 INFO    HandlerThread:32961 [handler.py:handle_request_defer():147] handle defer: 6
+2022-01-27 07:03:36,353 DEBUG   SenderThread:32961 [sender.py:send_request():248] send_request: defer
+2022-01-27 07:03:36,353 INFO    SenderThread:32961 [sender.py:send_request_defer():383] handle sender defer: 6
+2022-01-27 07:03:36,353 INFO    SenderThread:32961 [file_pusher.py:finish():177] shutting down file pusher
+2022-01-27 07:03:36,455 DEBUG   HandlerThread:32961 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-27 07:03:36,455 DEBUG   SenderThread:32961 [sender.py:send_request():248] send_request: poll_exit
+2022-01-27 07:03:36,557 DEBUG   HandlerThread:32961 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-27 07:03:36,557 DEBUG   SenderThread:32961 [sender.py:send_request():248] send_request: poll_exit
+2022-01-27 07:03:36,659 DEBUG   HandlerThread:32961 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-27 07:03:36,659 DEBUG   SenderThread:32961 [sender.py:send_request():248] send_request: poll_exit
+2022-01-27 07:03:36,761 DEBUG   HandlerThread:32961 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-27 07:03:36,761 DEBUG   SenderThread:32961 [sender.py:send_request():248] send_request: poll_exit
+2022-01-27 07:03:36,863 DEBUG   HandlerThread:32961 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-27 07:03:36,863 DEBUG   SenderThread:32961 [sender.py:send_request():248] send_request: poll_exit
+2022-01-27 07:03:36,965 DEBUG   HandlerThread:32961 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-27 07:03:36,965 DEBUG   SenderThread:32961 [sender.py:send_request():248] send_request: poll_exit
+2022-01-27 07:03:37,067 DEBUG   HandlerThread:32961 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-27 07:03:37,068 DEBUG   SenderThread:32961 [sender.py:send_request():248] send_request: poll_exit
+2022-01-27 07:03:37,170 DEBUG   HandlerThread:32961 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-27 07:03:37,170 DEBUG   SenderThread:32961 [sender.py:send_request():248] send_request: poll_exit
+2022-01-27 07:03:37,275 DEBUG   HandlerThread:32961 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-27 07:03:37,276 DEBUG   SenderThread:32961 [sender.py:send_request():248] send_request: poll_exit
+2022-01-27 07:03:37,379 DEBUG   HandlerThread:32961 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-27 07:03:37,379 DEBUG   SenderThread:32961 [sender.py:send_request():248] send_request: poll_exit
+2022-01-27 07:03:37,481 DEBUG   HandlerThread:32961 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-27 07:03:37,481 DEBUG   SenderThread:32961 [sender.py:send_request():248] send_request: poll_exit
+2022-01-27 07:03:37,583 DEBUG   HandlerThread:32961 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-27 07:03:37,583 DEBUG   SenderThread:32961 [sender.py:send_request():248] send_request: poll_exit
+2022-01-27 07:03:37,685 DEBUG   HandlerThread:32961 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-27 07:03:37,685 DEBUG   SenderThread:32961 [sender.py:send_request():248] send_request: poll_exit
+2022-01-27 07:03:37,787 DEBUG   HandlerThread:32961 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-27 07:03:37,787 DEBUG   SenderThread:32961 [sender.py:send_request():248] send_request: poll_exit
+2022-01-27 07:03:37,889 DEBUG   HandlerThread:32961 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-27 07:03:37,889 DEBUG   SenderThread:32961 [sender.py:send_request():248] send_request: poll_exit
+2022-01-27 07:03:37,993 DEBUG   HandlerThread:32961 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-27 07:03:37,994 DEBUG   SenderThread:32961 [sender.py:send_request():248] send_request: poll_exit
+2022-01-27 07:03:38,037 INFO    Thread-20 :32961 [upload_job.py:push():137] Uploaded file /Users/ivanovitchsilva/mlops/week_08/Example_04/decision_tree/wandb/run-20220127_070300-2qth9r8a/files/output.log
+2022-01-27 07:03:38,100 DEBUG   HandlerThread:32961 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-27 07:03:38,101 DEBUG   SenderThread:32961 [sender.py:send_request():248] send_request: poll_exit
+2022-01-27 07:03:38,178 INFO    Thread-23 :32961 [upload_job.py:push():137] Uploaded file /Users/ivanovitchsilva/mlops/week_08/Example_04/decision_tree/wandb/run-20220127_070300-2qth9r8a/files/conda-environment.yaml
+2022-01-27 07:03:38,211 INFO    Thread-21 :32961 [upload_job.py:push():137] Uploaded file /Users/ivanovitchsilva/mlops/week_08/Example_04/decision_tree/wandb/run-20220127_070300-2qth9r8a/files/config.yaml
+2022-01-27 07:03:38,212 DEBUG   HandlerThread:32961 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-27 07:03:38,215 INFO    Thread-19 :32961 [upload_job.py:push():137] Uploaded file /Users/ivanovitchsilva/mlops/week_08/Example_04/decision_tree/wandb/run-20220127_070300-2qth9r8a/files/requirements.txt
+2022-01-27 07:03:38,215 DEBUG   SenderThread:32961 [sender.py:send_request():248] send_request: poll_exit
+2022-01-27 07:03:38,221 INFO    Thread-22 :32961 [upload_job.py:push():137] Uploaded file /Users/ivanovitchsilva/mlops/week_08/Example_04/decision_tree/wandb/run-20220127_070300-2qth9r8a/files/wandb-summary.json
+2022-01-27 07:03:38,319 DEBUG   HandlerThread:32961 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-27 07:03:38,320 DEBUG   SenderThread:32961 [sender.py:send_request():248] send_request: poll_exit
+2022-01-27 07:03:38,424 DEBUG   HandlerThread:32961 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-27 07:03:38,425 DEBUG   SenderThread:32961 [sender.py:send_request():248] send_request: poll_exit
+2022-01-27 07:03:38,426 INFO    Thread-7  :32961 [sender.py:transition_state():387] send defer: 7
+2022-01-27 07:03:38,427 DEBUG   HandlerThread:32961 [handler.py:handle_request():130] handle_request: defer
+2022-01-27 07:03:38,427 INFO    HandlerThread:32961 [handler.py:handle_request_defer():147] handle defer: 7
+2022-01-27 07:03:38,427 DEBUG   SenderThread:32961 [sender.py:send_request():248] send_request: defer
+2022-01-27 07:03:38,428 INFO    SenderThread:32961 [sender.py:send_request_defer():383] handle sender defer: 7
+2022-01-27 07:03:38,530 DEBUG   HandlerThread:32961 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-27 07:03:38,657 INFO    SenderThread:32961 [sender.py:transition_state():387] send defer: 8
+2022-01-27 07:03:38,658 DEBUG   SenderThread:32961 [sender.py:send_request():248] send_request: poll_exit
+2022-01-27 07:03:38,659 DEBUG   HandlerThread:32961 [handler.py:handle_request():130] handle_request: defer
+2022-01-27 07:03:38,660 INFO    HandlerThread:32961 [handler.py:handle_request_defer():147] handle defer: 8
+2022-01-27 07:03:38,660 DEBUG   SenderThread:32961 [sender.py:send_request():248] send_request: defer
+2022-01-27 07:03:38,660 INFO    SenderThread:32961 [sender.py:send_request_defer():383] handle sender defer: 8
+2022-01-27 07:03:38,660 INFO    SenderThread:32961 [sender.py:transition_state():387] send defer: 9
+2022-01-27 07:03:38,661 DEBUG   SenderThread:32961 [sender.py:send():234] send: final
+2022-01-27 07:03:38,661 DEBUG   SenderThread:32961 [sender.py:send():234] send: footer
+2022-01-27 07:03:38,662 DEBUG   HandlerThread:32961 [handler.py:handle_request():130] handle_request: defer
+2022-01-27 07:03:38,662 INFO    HandlerThread:32961 [handler.py:handle_request_defer():147] handle defer: 9
+2022-01-27 07:03:38,662 DEBUG   SenderThread:32961 [sender.py:send_request():248] send_request: defer
+2022-01-27 07:03:38,662 INFO    SenderThread:32961 [sender.py:send_request_defer():383] handle sender defer: 9
+2022-01-27 07:03:38,764 DEBUG   HandlerThread:32961 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-27 07:03:38,765 DEBUG   SenderThread:32961 [sender.py:send_request():248] send_request: poll_exit
+2022-01-27 07:03:38,766 INFO    SenderThread:32961 [file_pusher.py:join():182] waiting for file pusher
+2022-01-27 07:03:39,219 DEBUG   HandlerThread:32961 [handler.py:handle_request():130] handle_request: get_summary
+2022-01-27 07:03:39,220 DEBUG   HandlerThread:32961 [handler.py:handle_request():130] handle_request: sampled_history
+2022-01-27 07:03:39,222 DEBUG   HandlerThread:32961 [handler.py:handle_request():130] handle_request: shutdown
+2022-01-27 07:03:39,222 INFO    HandlerThread:32961 [handler.py:finish():731] shutting down handler
+2022-01-27 07:03:39,666 INFO    WriterThread:32961 [datastore.py:close():281] close: /Users/ivanovitchsilva/mlops/week_08/Example_04/decision_tree/wandb/run-20220127_070300-2qth9r8a/run-2qth9r8a.wandb
+2022-01-27 07:03:40,221 INFO    SenderThread:32961 [sender.py:finish():1070] shutting down sender
+2022-01-27 07:03:40,222 INFO    SenderThread:32961 [file_pusher.py:finish():177] shutting down file pusher
+2022-01-27 07:03:40,222 INFO    SenderThread:32961 [file_pusher.py:join():182] waiting for file pusher
+2022-01-27 07:03:40,226 INFO    MainThread:32961 [internal.py:handle_exit():77] Internal process exited

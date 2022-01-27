@@ -319,11 +319,11 @@ def export_model(run, pipe, x_val, val_pred, export_artifact):
         export_path = os.path.join(temp_dir, "model_export")
 
         mlflow.sklearn.save_model(
-            pipe, # our pipeline
-            export_path, # Path to a directory for the produced package
+            pipe,
+            export_path,
             serialization_format=mlflow.sklearn.SERIALIZATION_FORMAT_CLOUDPICKLE,
-            signature=signature, # input and output schema
-            input_example=x_val.iloc[:2], # the first few examples
+            signature=signature,
+            input_example=x_val.iloc[:2],
         )
 
         artifact = wandb.Artifact(
@@ -331,10 +331,6 @@ def export_model(run, pipe, x_val, val_pred, export_artifact):
             type="model_export",
             description="Decision Tree pipeline export",
         )
-        
-        # NOTE that we use .add_dir and not .add_file
-        # because the export directory contains several
-        # files
         artifact.add_dir(export_path)
 
         run.log_artifact(artifact)
