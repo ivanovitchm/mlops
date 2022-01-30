@@ -1,0 +1,452 @@
+[1m================================================= test session starts =================================================
+platform darwin -- Python 3.9.10, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- /Users/ivanovitchsilva/opt/anaconda3/envs/mlflow-646ab37a5ab6e97d711e16eeb4500ce1a8212984/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/ivanovitchsilva/mlops/week_09/Example_01/check_data
+[1mcollected 4 items                                                                                                     
+test_data.py::test_kolmogorov_smirnov [31mFAILED
+test_data.py::test_column_presence_and_type [31mFAILED
+test_data.py::test_class_names [31mFAILED
+test_data.py::test_column_ranges [31mFAILED
+====================================================== FAILURES =======================================================
+[31m[1m_______________________________________________ test_kolmogorov_smirnov _______________________________________________
+self = Index(['39', ' State-gov', ' 77516', ' Bachelors', ' 13', ' Never-married',
+       ' Adm-clerical', ' Not-in-family', ' White', ' Male', ' 2174', ' 0',
+       ' 40', ' United-States', ' <=50K'],
+      dtype='object')
+key = 'age', method = None, tolerance = None
+    def get_loc(self, key, method=None, tolerance=None):
+        """
+        Get integer location, slice or boolean mask for requested label.
+        Parameters
+        ----------
+        key : label
+        method : {None, 'pad'/'ffill', 'backfill'/'bfill', 'nearest'}, optional
+            * default: exact matches only.
+            * pad / ffill: find the PREVIOUS index value if no exact match.
+            * backfill / bfill: use NEXT index value if no exact match
+            * nearest: use the NEAREST index value if no exact match. Tied
+              distances are broken by preferring the larger index value.
+        tolerance : int or float, optional
+            Maximum distance from index value for inexact matches. The value of
+            the index at the matching location must satisfy the equation
+            ``abs(index[loc] - key) <= tolerance``.
+        Returns
+        -------
+        loc : int if unique index, slice if monotonic index, else mask
+        Examples
+        --------
+        >>> unique_index = pd.Index(list('abc'))
+        >>> unique_index.get_loc('b')
+        1
+        >>> monotonic_index = pd.Index(list('abbc'))
+        >>> monotonic_index.get_loc('b')
+        slice(1, 3, None)
+        >>> non_monotonic_index = pd.Index(list('abcb'))
+        >>> non_monotonic_index.get_loc('b')
+        array([False,  True, False,  True])
+        """
+        if method is None:
+            if tolerance is not None:
+                raise ValueError(
+                    "tolerance argument only valid if using pad, "
+                    "backfill or nearest lookups"
+                )
+            casted_key = self._maybe_cast_indexer(key)
+            try:
+>               return self._engine.get_loc(casted_key)
+[31m[1m../../../../opt/anaconda3/envs/mlflow-646ab37a5ab6e97d711e16eeb4500ce1a8212984/lib/python3.9/site-packages/pandas/core/indexes/base.py[39m[22m:3361:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+>   ???
+[31m[1mpandas/_libs/index.pyx[39m[22m:76:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+>   ???
+[31m[1mpandas/_libs/index.pyx[39m[22m:108:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+>   ???
+[31m[1mpandas/_libs/hashtable_class_helper.pxi[39m[22m:5198:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+>   ???
+[31m[1mE   KeyError: 'age'
+[31m[1mpandas/_libs/hashtable_class_helper.pxi[39m[22m:5206: KeyError
+[33mThe above exception was the direct cause of the following exception:
+data = (       39          State-gov   77516    Bachelors   13  ...   2174  0  40   United-States   <=50K
+0      50   Self-em... 52       Self-emp-inc  287927      HS-grad    9  ...  15024  0  40   United-States    >50K
+[32536 rows x 15 columns])
+ks_alpha = 0.05
+    def test_kolmogorov_smirnov(data, ks_alpha):
+        sample1, sample2 = data
+        numerical_columns = [
+            "age",
+            "fnlwgt",
+            "education_num",
+            "capital_gain",
+            "capital_loss",
+            "hours_per_week"
+        ]
+        # Bonferroni correction for multiple hypothesis testing
+        alpha_prime = 1 - (1 - ks_alpha)**(1 / len(numerical_columns))
+        for col in numerical_columns:
+            # two-sided: The null hypothesis is that the two distributions are identical
+            # the alternative is that they are not identical.
+            ts, p_value = scipy.stats.ks_2samp(
+>               sample1[col],
+                sample2[col],
+                alternative='two-sided'
+            )
+[31m[1mtest_data.py[39m[22m:26:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+[31m[1m../../../../opt/anaconda3/envs/mlflow-646ab37a5ab6e97d711e16eeb4500ce1a8212984/lib/python3.9/site-packages/pandas/core/frame.py[39m[22m:3458: in __getitem__
+    indexer = self.columns.get_loc(key)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+self = Index(['39', ' State-gov', ' 77516', ' Bachelors', ' 13', ' Never-married',
+       ' Adm-clerical', ' Not-in-family', ' White', ' Male', ' 2174', ' 0',
+       ' 40', ' United-States', ' <=50K'],
+      dtype='object')
+key = 'age', method = None, tolerance = None
+    def get_loc(self, key, method=None, tolerance=None):
+        """
+        Get integer location, slice or boolean mask for requested label.
+        Parameters
+        ----------
+        key : label
+        method : {None, 'pad'/'ffill', 'backfill'/'bfill', 'nearest'}, optional
+            * default: exact matches only.
+            * pad / ffill: find the PREVIOUS index value if no exact match.
+            * backfill / bfill: use NEXT index value if no exact match
+            * nearest: use the NEAREST index value if no exact match. Tied
+              distances are broken by preferring the larger index value.
+        tolerance : int or float, optional
+            Maximum distance from index value for inexact matches. The value of
+            the index at the matching location must satisfy the equation
+            ``abs(index[loc] - key) <= tolerance``.
+        Returns
+        -------
+        loc : int if unique index, slice if monotonic index, else mask
+        Examples
+        --------
+        >>> unique_index = pd.Index(list('abc'))
+        >>> unique_index.get_loc('b')
+        1
+        >>> monotonic_index = pd.Index(list('abbc'))
+        >>> monotonic_index.get_loc('b')
+        slice(1, 3, None)
+        >>> non_monotonic_index = pd.Index(list('abcb'))
+        >>> non_monotonic_index.get_loc('b')
+        array([False,  True, False,  True])
+        """
+        if method is None:
+            if tolerance is not None:
+                raise ValueError(
+                    "tolerance argument only valid if using pad, "
+                    "backfill or nearest lookups"
+                )
+            casted_key = self._maybe_cast_indexer(key)
+            try:
+                return self._engine.get_loc(casted_key)
+            except KeyError as err:
+>               raise KeyError(key) from err
+[31m[1mE               KeyError: 'age'
+[31m[1m../../../../opt/anaconda3/envs/mlflow-646ab37a5ab6e97d711e16eeb4500ce1a8212984/lib/python3.9/site-packages/pandas/core/indexes/base.py[39m[22m:3363: KeyError
+[31m[1m____________________________________________ test_column_presence_and_type ____________________________________________
+data = (       39          State-gov   77516    Bachelors   13  ...   2174  0  40   United-States   <=50K
+0      50   Self-em... 52       Self-emp-inc  287927      HS-grad    9  ...  15024  0  40   United-States    >50K
+[32536 rows x 15 columns])
+    def test_column_presence_and_type(data):
+        # Disregard the reference dataset
+        _, df = data
+        required_columns = {
+            "age": pd.api.types.is_int64_dtype,
+            "workclass": pd.api.types.is_object_dtype,
+            "fnlwgt": pd.api.types.is_int64_dtype,
+            "education": pd.api.types.is_object_dtype,
+            "education_num": pd.api.types.is_int64_dtype,
+            "marital_status": pd.api.types.is_object_dtype,
+            "occupation": pd.api.types.is_object_dtype,
+            "relationship": pd.api.types.is_object_dtype,
+            "race": pd.api.types.is_object_dtype,
+            "sex": pd.api.types.is_object_dtype,
+            "capital_gain": pd.api.types.is_int64_dtype,
+            "capital_loss": pd.api.types.is_int64_dtype,
+            "hours_per_week": pd.api.types.is_int64_dtype,
+            "native_country": pd.api.types.is_object_dtype,
+            "high_income": pd.api.types.is_object_dtype
+        }
+        # Check column presence
+>       assert set(df.columns.values).issuperset(set(required_columns.keys()))
+[31m[1mE       AssertionError: assert False
+[31m[1mE        +  where False = <built-in method issuperset of set object at 0x16a7d9f20>({'age', 'capital_gain', 'capital_loss', 'education', 'education_num', 'fnlwgt', ...})
+[31m[1mE        +    where <built-in method issuperset of set object at 0x16a7d9f20> = {' 0', ' 13', ' 2174', ' 40', ' 77516', ' <=50K', ...}.issuperset
+[31m[1mE        +      where {' 0', ' 13', ' 2174', ' 40', ' 77516', ' <=50K', ...} = set(array(['39', ' State-gov', ' 77516', ' Bachelors', ' 13',\n       ' Never-married', ' Adm-clerical', ' Not-in-family', ' White',\n       ' Male', ' 2174', ' 0', ' 40', ' United-States', ' <=50K'],\n      dtype=object))
+[31m[1mE        +        where array(['39', ' State-gov', ' 77516', ' Bachelors', ' 13',\n       ' Never-married', ' Adm-clerical', ' Not-in-family', ' White',\n       ' Male', ' 2174', ' 0', ' 40', ' United-States', ' <=50K'],\n      dtype=object) = Index(['39', ' State-gov', ' 77516', ' Bachelors', ' 13', ' Never-married',\n       ' Adm-clerical', ' Not-in-family', ' White', ' Male', ' 2174', ' 0',\n       ' 40', ' United-States', ' <=50K'],\n      dtype='object').values
+[31m[1mE        +          where Index(['39', ' State-gov', ' 77516', ' Bachelors', ' 13', ' Never-married',\n       ' Adm-clerical', ' Not-in-family', ' White', ' Male', ' 2174', ' 0',\n       ' 40', ' United-States', ' <=50K'],\n      dtype='object') =        39          State-gov   77516    Bachelors   13  ...   2174  0  40   United-States   <=50K\n0      50   Self-emp...  52       Self-emp-inc  287927      HS-grad    9  ...  15024  0  40   United-States    >50K\n\n[32536 rows x 15 columns].columns
+[31m[1mE        +    and   {'age', 'capital_gain', 'capital_loss', 'education', 'education_num', 'fnlwgt', ...} = set(dict_keys(['age', 'workclass', 'fnlwgt', 'education', 'education_num', 'marital_status', 'occupation', 'relationship', 'race', 'sex', 'capital_gain', 'capital_loss', 'hours_per_week', 'native_country', 'high_income']))
+[31m[1mE        +      where dict_keys(['age', 'workclass', 'fnlwgt', 'education', 'education_num', 'marital_status', 'occupation', 'relationship', 'race', 'sex', 'capital_gain', 'capital_loss', 'hours_per_week', 'native_country', 'high_income']) = <built-in method keys of dict object at 0x16a8c7ec0>()
+[31m[1mE        +        where <built-in method keys of dict object at 0x16a8c7ec0> = {'age': <function is_int64_dtype at 0x15e85a5e0>, 'capital_gain': <function is_int64_dtype at 0x15e85a5e0>, 'capital_loss': <function is_int64_dtype at 0x15e85a5e0>, 'education': <function is_object_dtype at 0x15e856ca0>, ...}.keys
+[31m[1mtest_data.py[39m[22m:62: AssertionError
+[31m[1m__________________________________________________ test_class_names ___________________________________________________
+self = Index(['39', ' State-gov', ' 77516', ' Bachelors', ' 13', ' Never-married',
+       ' Adm-clerical', ' Not-in-family', ' White', ' Male', ' 2174', ' 0',
+       ' 40', ' United-States', ' <=50K'],
+      dtype='object')
+key = 'high_income', method = None, tolerance = None
+    def get_loc(self, key, method=None, tolerance=None):
+        """
+        Get integer location, slice or boolean mask for requested label.
+        Parameters
+        ----------
+        key : label
+        method : {None, 'pad'/'ffill', 'backfill'/'bfill', 'nearest'}, optional
+            * default: exact matches only.
+            * pad / ffill: find the PREVIOUS index value if no exact match.
+            * backfill / bfill: use NEXT index value if no exact match
+            * nearest: use the NEAREST index value if no exact match. Tied
+              distances are broken by preferring the larger index value.
+        tolerance : int or float, optional
+            Maximum distance from index value for inexact matches. The value of
+            the index at the matching location must satisfy the equation
+            ``abs(index[loc] - key) <= tolerance``.
+        Returns
+        -------
+        loc : int if unique index, slice if monotonic index, else mask
+        Examples
+        --------
+        >>> unique_index = pd.Index(list('abc'))
+        >>> unique_index.get_loc('b')
+        1
+        >>> monotonic_index = pd.Index(list('abbc'))
+        >>> monotonic_index.get_loc('b')
+        slice(1, 3, None)
+        >>> non_monotonic_index = pd.Index(list('abcb'))
+        >>> non_monotonic_index.get_loc('b')
+        array([False,  True, False,  True])
+        """
+        if method is None:
+            if tolerance is not None:
+                raise ValueError(
+                    "tolerance argument only valid if using pad, "
+                    "backfill or nearest lookups"
+                )
+            casted_key = self._maybe_cast_indexer(key)
+            try:
+>               return self._engine.get_loc(casted_key)
+[31m[1m../../../../opt/anaconda3/envs/mlflow-646ab37a5ab6e97d711e16eeb4500ce1a8212984/lib/python3.9/site-packages/pandas/core/indexes/base.py[39m[22m:3361:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+>   ???
+[31m[1mpandas/_libs/index.pyx[39m[22m:76:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+>   ???
+[31m[1mpandas/_libs/index.pyx[39m[22m:108:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+>   ???
+[31m[1mpandas/_libs/hashtable_class_helper.pxi[39m[22m:5198:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+>   ???
+[31m[1mE   KeyError: 'high_income'
+[31m[1mpandas/_libs/hashtable_class_helper.pxi[39m[22m:5206: KeyError
+[33mThe above exception was the direct cause of the following exception:
+data = (       39          State-gov   77516    Bachelors   13  ...   2174  0  40   United-States   <=50K
+0      50   Self-em... 52       Self-emp-inc  287927      HS-grad    9  ...  15024  0  40   United-States    >50K
+[32536 rows x 15 columns])
+    def test_class_names(data):
+        # Disregard the reference dataset
+        _, df = data
+        # Check that only the known classes are present
+        known_classes = [
+            " <=50K",
+            " >50K"
+        ]
+>       assert df["high_income"].isin(known_classes).all()
+[31m[1mtest_data.py[39m[22m:80:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+[31m[1m../../../../opt/anaconda3/envs/mlflow-646ab37a5ab6e97d711e16eeb4500ce1a8212984/lib/python3.9/site-packages/pandas/core/frame.py[39m[22m:3458: in __getitem__
+    indexer = self.columns.get_loc(key)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+self = Index(['39', ' State-gov', ' 77516', ' Bachelors', ' 13', ' Never-married',
+       ' Adm-clerical', ' Not-in-family', ' White', ' Male', ' 2174', ' 0',
+       ' 40', ' United-States', ' <=50K'],
+      dtype='object')
+key = 'high_income', method = None, tolerance = None
+    def get_loc(self, key, method=None, tolerance=None):
+        """
+        Get integer location, slice or boolean mask for requested label.
+        Parameters
+        ----------
+        key : label
+        method : {None, 'pad'/'ffill', 'backfill'/'bfill', 'nearest'}, optional
+            * default: exact matches only.
+            * pad / ffill: find the PREVIOUS index value if no exact match.
+            * backfill / bfill: use NEXT index value if no exact match
+            * nearest: use the NEAREST index value if no exact match. Tied
+              distances are broken by preferring the larger index value.
+        tolerance : int or float, optional
+            Maximum distance from index value for inexact matches. The value of
+            the index at the matching location must satisfy the equation
+            ``abs(index[loc] - key) <= tolerance``.
+        Returns
+        -------
+        loc : int if unique index, slice if monotonic index, else mask
+        Examples
+        --------
+        >>> unique_index = pd.Index(list('abc'))
+        >>> unique_index.get_loc('b')
+        1
+        >>> monotonic_index = pd.Index(list('abbc'))
+        >>> monotonic_index.get_loc('b')
+        slice(1, 3, None)
+        >>> non_monotonic_index = pd.Index(list('abcb'))
+        >>> non_monotonic_index.get_loc('b')
+        array([False,  True, False,  True])
+        """
+        if method is None:
+            if tolerance is not None:
+                raise ValueError(
+                    "tolerance argument only valid if using pad, "
+                    "backfill or nearest lookups"
+                )
+            casted_key = self._maybe_cast_indexer(key)
+            try:
+                return self._engine.get_loc(casted_key)
+            except KeyError as err:
+>               raise KeyError(key) from err
+[31m[1mE               KeyError: 'high_income'
+[31m[1m../../../../opt/anaconda3/envs/mlflow-646ab37a5ab6e97d711e16eeb4500ce1a8212984/lib/python3.9/site-packages/pandas/core/indexes/base.py[39m[22m:3363: KeyError
+[31m[1m_________________________________________________ test_column_ranges __________________________________________________
+self = Index(['39', ' State-gov', ' 77516', ' Bachelors', ' 13', ' Never-married',
+       ' Adm-clerical', ' Not-in-family', ' White', ' Male', ' 2174', ' 0',
+       ' 40', ' United-States', ' <=50K'],
+      dtype='object')
+key = 'age', method = None, tolerance = None
+    def get_loc(self, key, method=None, tolerance=None):
+        """
+        Get integer location, slice or boolean mask for requested label.
+        Parameters
+        ----------
+        key : label
+        method : {None, 'pad'/'ffill', 'backfill'/'bfill', 'nearest'}, optional
+            * default: exact matches only.
+            * pad / ffill: find the PREVIOUS index value if no exact match.
+            * backfill / bfill: use NEXT index value if no exact match
+            * nearest: use the NEAREST index value if no exact match. Tied
+              distances are broken by preferring the larger index value.
+        tolerance : int or float, optional
+            Maximum distance from index value for inexact matches. The value of
+            the index at the matching location must satisfy the equation
+            ``abs(index[loc] - key) <= tolerance``.
+        Returns
+        -------
+        loc : int if unique index, slice if monotonic index, else mask
+        Examples
+        --------
+        >>> unique_index = pd.Index(list('abc'))
+        >>> unique_index.get_loc('b')
+        1
+        >>> monotonic_index = pd.Index(list('abbc'))
+        >>> monotonic_index.get_loc('b')
+        slice(1, 3, None)
+        >>> non_monotonic_index = pd.Index(list('abcb'))
+        >>> non_monotonic_index.get_loc('b')
+        array([False,  True, False,  True])
+        """
+        if method is None:
+            if tolerance is not None:
+                raise ValueError(
+                    "tolerance argument only valid if using pad, "
+                    "backfill or nearest lookups"
+                )
+            casted_key = self._maybe_cast_indexer(key)
+            try:
+>               return self._engine.get_loc(casted_key)
+[31m[1m../../../../opt/anaconda3/envs/mlflow-646ab37a5ab6e97d711e16eeb4500ce1a8212984/lib/python3.9/site-packages/pandas/core/indexes/base.py[39m[22m:3361:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+>   ???
+[31m[1mpandas/_libs/index.pyx[39m[22m:76:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+>   ???
+[31m[1mpandas/_libs/index.pyx[39m[22m:108:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+>   ???
+[31m[1mpandas/_libs/hashtable_class_helper.pxi[39m[22m:5198:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+>   ???
+[31m[1mE   KeyError: 'age'
+[31m[1mpandas/_libs/hashtable_class_helper.pxi[39m[22m:5206: KeyError
+[33mThe above exception was the direct cause of the following exception:
+data = (       39          State-gov   77516    Bachelors   13  ...   2174  0  40   United-States   <=50K
+0      50   Self-em... 52       Self-emp-inc  287927      HS-grad    9  ...  15024  0  40   United-States    >50K
+[32536 rows x 15 columns])
+    def test_column_ranges(data):
+        # Disregard the reference dataset
+        _, df = data
+        ranges = {
+            "age": (17, 90),
+            "fnlwgt": (1.228500e+04, 1.484705e+06),
+            "education_num": (1, 16),
+            "capital_gain": (0, 99999),
+            "capital_loss": (0, 4356),
+            "hours_per_week": (1, 99)
+        }
+        for col_name, (minimum, maximum) in ranges.items():
+>           assert df[col_name].dropna().between(minimum, maximum).all(), (
+                f"Column {col_name} failed the test. Should be between {minimum} and {maximum}, "
+                f"instead min={df[col_name].min()} and max={df[col_name].max()}"
+            )
+[31m[1mtest_data.py[39m[22m:99:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+[31m[1m../../../../opt/anaconda3/envs/mlflow-646ab37a5ab6e97d711e16eeb4500ce1a8212984/lib/python3.9/site-packages/pandas/core/frame.py[39m[22m:3458: in __getitem__
+    indexer = self.columns.get_loc(key)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+self = Index(['39', ' State-gov', ' 77516', ' Bachelors', ' 13', ' Never-married',
+       ' Adm-clerical', ' Not-in-family', ' White', ' Male', ' 2174', ' 0',
+       ' 40', ' United-States', ' <=50K'],
+      dtype='object')
+key = 'age', method = None, tolerance = None
+    def get_loc(self, key, method=None, tolerance=None):
+        """
+        Get integer location, slice or boolean mask for requested label.
+        Parameters
+        ----------
+        key : label
+        method : {None, 'pad'/'ffill', 'backfill'/'bfill', 'nearest'}, optional
+            * default: exact matches only.
+            * pad / ffill: find the PREVIOUS index value if no exact match.
+            * backfill / bfill: use NEXT index value if no exact match
+            * nearest: use the NEAREST index value if no exact match. Tied
+              distances are broken by preferring the larger index value.
+        tolerance : int or float, optional
+            Maximum distance from index value for inexact matches. The value of
+            the index at the matching location must satisfy the equation
+            ``abs(index[loc] - key) <= tolerance``.
+        Returns
+        -------
+        loc : int if unique index, slice if monotonic index, else mask
+        Examples
+        --------
+        >>> unique_index = pd.Index(list('abc'))
+        >>> unique_index.get_loc('b')
+        1
+        >>> monotonic_index = pd.Index(list('abbc'))
+        >>> monotonic_index.get_loc('b')
+        slice(1, 3, None)
+        >>> non_monotonic_index = pd.Index(list('abcb'))
+        >>> non_monotonic_index.get_loc('b')
+        array([False,  True, False,  True])
+        """
+        if method is None:
+            if tolerance is not None:
+                raise ValueError(
+                    "tolerance argument only valid if using pad, "
+                    "backfill or nearest lookups"
+                )
+            casted_key = self._maybe_cast_indexer(key)
+            try:
+                return self._engine.get_loc(casted_key)
+            except KeyError as err:
+>               raise KeyError(key) from err
+[31m[1mE               KeyError: 'age'
+[31m[1m../../../../opt/anaconda3/envs/mlflow-646ab37a5ab6e97d711e16eeb4500ce1a8212984/lib/python3.9/site-packages/pandas/core/indexes/base.py[39m[22m:3363: KeyError
+=============================================== short test summary info ===============================================
+FAILED test_data.py::test_kolmogorov_smirnov - KeyError: 'age'
+FAILED test_data.py::test_column_presence_and_type - AssertionError: assert False
+FAILED test_data.py::test_class_names - KeyError: 'high_income'
+FAILED test_data.py::test_column_ranges - KeyError: 'age'
+[31m================================================== [1m4 failed[22m in 9.39s ==================================================

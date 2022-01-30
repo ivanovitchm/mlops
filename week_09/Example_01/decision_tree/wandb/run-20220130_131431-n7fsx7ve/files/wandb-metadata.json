@@ -1,0 +1,35 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.8.12",
+    "heartbeatAt": "2022-01-30T16:14:32.910392",
+    "startedAt": "2022-01-30T16:14:31.715298",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--train_data",
+        "train_data.csv:latest",
+        "--model_config",
+        "/Users/ivanovitchsilva/mlops/week_09/Example_01/outputs/2022-01-30/13-14-28/decision_tree_config.yml",
+        "--export_artifact",
+        "model_export",
+        "--random_seed",
+        "42",
+        "--val_size",
+        "0.3",
+        "--stratify",
+        "high_income"
+    ],
+    "state": "running",
+    "program": "run.py",
+    "codePath": "week_09/Example_01/decision_tree/run.py",
+    "git": {
+        "remote": "https://github.com/ivanovitchm/mlops.git",
+        "commit": "dc7287485d982d7daf5e837a2a391afaade859b5"
+    },
+    "email": "ivan@imd.ufrn.br",
+    "root": "/Users/ivanovitchsilva/mlops",
+    "host": "Ivanovitchs-MacBook-Air.local",
+    "username": "ivanovitchsilva",
+    "executable": "/Users/ivanovitchsilva/opt/anaconda3/envs/mlflow-521646bdb8ef773b1f4c4ec0a73df68c0c121729/bin/python"
+}

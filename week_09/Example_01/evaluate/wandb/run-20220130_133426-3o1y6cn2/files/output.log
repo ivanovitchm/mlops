@@ -1,0 +1,8 @@
+
+30-01-2022 13:34:30 Downloading and reading test artifact
+30-01-2022 13:34:33 Extracting target from dataframe
+30-01-2022 13:34:33 Encoding Target Variable
+30-01-2022 13:34:33 Classes [0, 1]: [' <=50K' ' >50K']
+30-01-2022 13:34:33 Downloading and reading the exported model
+30-01-2022 13:34:37 Evaluation metrics
+30-01-2022 13:34:37 Uploading figures

@@ -1,0 +1,12 @@
+name: main_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - requests=2.24.0
+  - pip=21.3.1
+  - hydra-core=1.1.1
+  - pip:
+      - wandb==0.12.9
+      - mlflow==1.14.1
+      - hydra-joblib-launcher==1.1.5

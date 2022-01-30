@@ -1,0 +1,35 @@
+name: split_data
+conda_env: conda.yml
+
+entry_points:
+  main:
+    parameters:
+      input_artifact:
+        description: Fully qualified name for the artifact
+        type: str
+      artifact_root:
+        description: Name for the W&B artifact that will be created
+        type: str
+      artifact_type:
+        description: Type of the artifact to create
+        type: str
+        default: raw_data
+      test_size:
+        description: Description for the artifact
+        type: float
+      random_state:
+        description: Integer to use to seed the random number generator
+        type: str
+        default: 42
+      stratify:
+        description: If provided, it is considered a column name to be used for stratified splitting
+        type: str
+        default: "null"
+
+    command: >-
+      python run.py --input_artifact {input_artifact} \
+                    --artifact_root {artifact_root} \
+                    --artifact_type {artifact_type} \
+                    --test_size {test_size} \
+                    --random_state {random_state} \
+                    --stratify {stratify}

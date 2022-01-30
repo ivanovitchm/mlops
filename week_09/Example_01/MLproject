@@ -1,0 +1,12 @@
+name: main_env
+conda_env: conda.yml
+
+entry_points:
+  main:
+    parameters:
+      hydra_options:
+        description: Hydra parameters to override
+        type: str
+        default: ''
+    command: >-
+      python main.py $(echo {hydra_options})

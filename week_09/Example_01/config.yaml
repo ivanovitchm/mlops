@@ -1,0 +1,32 @@
+main:
+  project_name: week_09_example_01
+  experiment_name: dev
+  execute_steps:
+    - download
+    - preprocess
+    - check_data
+    - segregate
+    - decision_tree
+    - evaluate
+  # This seed will be used to seed the random number generator
+  # to ensure repeatibility of the data splits and other
+  # pseudo-random operations
+  random_seed: 42
+data:
+  file_url: "https://archive.ics.uci.edu/ml/machine-learning-databases/adult/adult.data"
+  reference_dataset: "week_09_example_01/preprocessed_data.csv:latest"
+  # Threshold for Kolomorov-Smirnov test
+  ks_alpha: 0.05
+  test_size: 0.3
+  val_size: 0.3
+  # Stratify according to the target when splitting the data
+  # in train/test or in train/val
+  stratify: high_income
+decision_tree_pipeline:
+  decision_tree:
+    criterion: "entropy"
+    splitter: "best"
+    max_depth: 13
+  numerical_pipe:
+    model: 0
+  export_artifact: "model_export"

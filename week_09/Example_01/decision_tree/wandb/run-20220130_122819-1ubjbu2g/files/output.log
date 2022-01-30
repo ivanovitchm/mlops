@@ -1,0 +1,33 @@
+30-01-2022 12:28:21 Downloading and reading train artifact
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m Project ivanovitchm/week_09_example_01 does not contain artifact: "data_train.csv:latest"
+Traceback (most recent call last):
+  File "/Users/ivanovitchsilva/opt/anaconda3/envs/mlflow-521646bdb8ef773b1f4c4ec0a73df68c0c121729/lib/python3.8/site-packages/wandb/apis/normalize.py", line 24, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/ivanovitchsilva/opt/anaconda3/envs/mlflow-521646bdb8ef773b1f4c4ec0a73df68c0c121729/lib/python3.8/site-packages/wandb/apis/public.py", line 761, in artifact
+    artifact = Artifact(self.client, entity, project, artifact_name)
+  File "/Users/ivanovitchsilva/opt/anaconda3/envs/mlflow-521646bdb8ef773b1f4c4ec0a73df68c0c121729/lib/python3.8/site-packages/wandb/apis/public.py", line 3443, in __init__
+    self._load()
+  File "/Users/ivanovitchsilva/opt/anaconda3/envs/mlflow-521646bdb8ef773b1f4c4ec0a73df68c0c121729/lib/python3.8/site-packages/wandb/apis/public.py", line 3961, in _load
+    raise ValueError(
+ValueError: Project ivanovitchm/week_09_example_01 does not contain artifact: "data_train.csv:latest"
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "run.py", line 402, in <module>
+    process_args(ARGS)
+  File "run.py", line 160, in process_args
+    local_path = run.use_artifact(args.train_data).file()
+  File "/Users/ivanovitchsilva/opt/anaconda3/envs/mlflow-521646bdb8ef773b1f4c4ec0a73df68c0c121729/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 2414, in use_artifact
+    artifact = public_api.artifact(type=type, name=name)
+  File "/Users/ivanovitchsilva/opt/anaconda3/envs/mlflow-521646bdb8ef773b1f4c4ec0a73df68c0c121729/lib/python3.8/site-packages/wandb/apis/normalize.py", line 62, in wrapper
+    six.reraise(CommError, CommError(message, err), sys.exc_info()[2])
+  File "/Users/ivanovitchsilva/opt/anaconda3/envs/mlflow-521646bdb8ef773b1f4c4ec0a73df68c0c121729/lib/python3.8/site-packages/six.py", line 718, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/ivanovitchsilva/opt/anaconda3/envs/mlflow-521646bdb8ef773b1f4c4ec0a73df68c0c121729/lib/python3.8/site-packages/wandb/apis/normalize.py", line 24, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/ivanovitchsilva/opt/anaconda3/envs/mlflow-521646bdb8ef773b1f4c4ec0a73df68c0c121729/lib/python3.8/site-packages/wandb/apis/public.py", line 761, in artifact
+    artifact = Artifact(self.client, entity, project, artifact_name)
+  File "/Users/ivanovitchsilva/opt/anaconda3/envs/mlflow-521646bdb8ef773b1f4c4ec0a73df68c0c121729/lib/python3.8/site-packages/wandb/apis/public.py", line 3443, in __init__
+    self._load()
+  File "/Users/ivanovitchsilva/opt/anaconda3/envs/mlflow-521646bdb8ef773b1f4c4ec0a73df68c0c121729/lib/python3.8/site-packages/wandb/apis/public.py", line 3961, in _load
+    raise ValueError(
+wandb.errors.CommError: Project ivanovitchm/week_09_example_01 does not contain artifact: "data_train.csv:latest"
