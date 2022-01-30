@@ -9,6 +9,6 @@ mlflow run -v 1.0.0 [URL of your Github repo] -P ...
 ```
 
 ```bash
-mlflow run -v 1.0.0 https://github.com/ivanovitchm/high_income.git -P hydra_options="main.project_name=remote_execution"
+mlflow run -v 1.0.0 https://github.com/ivanovitchm/high_income.git -P hydra_options="main.project_name=Remote_Execution"
 ```
 
