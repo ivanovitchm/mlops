@@ -16,7 +16,7 @@ A few notes and instructions:
   
 * For testing, set the ``project_name`` to ``week_09_example_01``. Once you are done
   developing, do a production run by changing the ``project_name`` to 
-  ``adult_data_classification_prod``. This way the visualization of the pipeline will not contain all your trials and errors. Remember to tag the produced model export as ``prod`` (we are going to use it in the next exercise)
+  ``high_income_classification_prod``. This way the visualization of the pipeline will not contain all your trials and errors. Remember to tag the produced model export as ``prod`` (we are going to use it in the next exercise)
   
 * When developing, you can override the parameter ``main.execute_steps`` to only execute one or
   more steps of the pipeline, instead of the entire pipeline. This is useful for debugging. 

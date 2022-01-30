@@ -151,3 +151,11 @@
 	- MLOps Level 1 with Pipeline incorporating train and preprocessing [[Part I]](https://loom.com/share/f7fa9aea76c34a968cbadec4c6455906) [[Part II]](https://loom.com/share/c485890d580949da936bd98f0e4ce310) [[Source-Code]](https://github.com/ivanovitchm/mlops/tree/main/week_08/Example_03)
 	- MLOps Level 1 with Pipeline and Hyper-parameter Tuning [[Part I]](https://loom.com/share/892d5f332c654405ad6132830a8cc9dc) [[Part II]](https://loom.com/share/45fdf7970180484db85428b257ac8905) [[Part III]](https://loom.com/share/5f11d9bfa64e4a14835518cfe7e47279) [[Part IV]](https://loom.com/share/1852883028a74eaba10a35cf72624ef4) [[Source-Code]](https://github.com/ivanovitchm/mlops/tree/main/week_08/Example_04)
 	- Test evaluation [[Part I]](https://loom.com/share/af0d821cc6334c0196373ebad9afc5eb) [[Source-Code]](https://github.com/ivanovitchm/mlops/tree/main/week_08/Example_05)
+
+**Week 09** Building a Reproducible Model Workflow Cont. - Final Pipeline, Release and Deploy
+- Outline
+- Final Pipeline
+	- Big picture of the final pipeline
+	- All together [[Part I]](https://loom.com/share/7008849cdd9c42a7885e96e56e760df2) [[Part II]](https://loom.com/share/2fd92eaaf2a44773a8f6e2d4ad412d97)
+- Release for reproducibility
+	- Create a GitHub repository for the final pipeline [Video](https://loom.com/share/54847ec209aa4f07afc7fe4db7cf2608)
