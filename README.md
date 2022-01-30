@@ -158,4 +158,4 @@
 	- Big picture of the final pipeline [[Video]](https://loom.com/share/8f7116cd3d9c4a4ab8d33099ac641f79)
 	- All together [[Part I]](https://loom.com/share/7008849cdd9c42a7885e96e56e760df2) [[Part II]](https://loom.com/share/2fd92eaaf2a44773a8f6e2d4ad412d97) [[Source-Code]](https://github.com/ivanovitchm/mlops/tree/main/week_09/Example_01)
 - Release for reproducibility
-	- Create a GitHub repository for the final pipeline [Video](https://loom.com/share/54847ec209aa4f07afc7fe4db7cf2608) [[Source-Code]](https://github.com/ivanovitchm/high_income)
+	- Create a GitHub repository for the final pipeline [[Video]](https://loom.com/share/54847ec209aa4f07afc7fe4db7cf2608) [[Source-Code]](https://github.com/ivanovitchm/high_income)
