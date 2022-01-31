@@ -135,7 +135,7 @@
 	- Multiple Hypothesis Testing Using MLFlow [[Video]](https://loom.com/share/c28fa645c36c4293be757c80a046a9ee) [[Source-Code]](https://github.com/ivanovitchm/mlops/tree/main/week_07/Example_08)
 	- Multiple Hypothesis Testing Using Parameters in PyTest [[Video]](https://loom.com/share/2a69248e155c4a6eb858f21ccac733a7) [[Source-Code]](https://github.com/ivanovitchm/mlops/tree/main/week_07/Example_09)
 
-**Week 08** Building a Reproducible Model Workflow Cont. - Train, Validation and Experiment Tracking [[PDF]](https://github.com/ivanovitchm/mlops/blob/main/week_08/Week_08.pdf)
+**Week 08** Building a Reproducible Model Workflow Cont. - Train, Validation and Experiment Tracking [[Slides]](https://github.com/ivanovitchm/mlops/blob/main/week_08/Week_08.pdf)
 - Outline [[Video]](https://loom.com/share/74da4a42d8ed47c582bfd62259f431e5)
 - A brief review [[Video]](https://loom.com/share/489e44bb845e4f5981f852b3d8e2677c)
 - Decision Trees
@@ -152,7 +152,7 @@
 	- MLOps Level 1 with Pipeline and Hyper-parameter Tuning [[Part I]](https://loom.com/share/892d5f332c654405ad6132830a8cc9dc) [[Part II]](https://loom.com/share/45fdf7970180484db85428b257ac8905) [[Part III]](https://loom.com/share/5f11d9bfa64e4a14835518cfe7e47279) [[Part IV]](https://loom.com/share/1852883028a74eaba10a35cf72624ef4) [[Source-Code]](https://github.com/ivanovitchm/mlops/tree/main/week_08/Example_04)
 	- Test evaluation [[Part I]](https://loom.com/share/af0d821cc6334c0196373ebad9afc5eb) [[Source-Code]](https://github.com/ivanovitchm/mlops/tree/main/week_08/Example_05)
 
-**Week 09** Building a Reproducible Model Workflow Cont. - Final Pipeline, Release and Deploy
+**Week 09** Building a Reproducible Model Workflow Cont. - Final Pipeline, Release and Deploy [[Slides]](https://github.com/ivanovitchm/mlops/blob/main/week_08/Week_09.pdf)
 - Outline
 - Final Pipeline
 	- Big picture of the final pipeline [[Video]](https://loom.com/share/8f7116cd3d9c4a4ab8d33099ac641f79)
@@ -160,3 +160,5 @@
 - Release for reproducibility
 	- Create a GitHub repository for the final pipeline [[Video]](https://loom.com/share/54847ec209aa4f07afc7fe4db7cf2608) [[Source-Code]](https://github.com/ivanovitchm/high_income)
 	- Semantic versioning and remote execution [[Video]](https://loom.com/share/0765937109de4bddad1d5a5574f79fa3) [[Source-Code]](https://github.com/ivanovitchm/mlops/tree/main/week_09/Example_02)
+- Deployment
+	- Deploy with MLflow [[Video]](https://loom.com/share/869ff59f7cc24bf0b6ed8669d7b85132) [[Source-Code]](https://github.com/ivanovitchm/mlops/tree/main/week_09/Example_03)
