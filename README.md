@@ -152,7 +152,7 @@
 	- MLOps Level 1 with Pipeline and Hyper-parameter Tuning [[Part I]](https://loom.com/share/892d5f332c654405ad6132830a8cc9dc) [[Part II]](https://loom.com/share/45fdf7970180484db85428b257ac8905) [[Part III]](https://loom.com/share/5f11d9bfa64e4a14835518cfe7e47279) [[Part IV]](https://loom.com/share/1852883028a74eaba10a35cf72624ef4) [[Source-Code]](https://github.com/ivanovitchm/mlops/tree/main/week_08/Example_04)
 	- Test evaluation [[Part I]](https://loom.com/share/af0d821cc6334c0196373ebad9afc5eb) [[Source-Code]](https://github.com/ivanovitchm/mlops/tree/main/week_08/Example_05)
 
-**Week 09** Building a Reproducible Model Workflow Cont. - Final Pipeline, Release and Deploy [[Slides]](https://github.com/ivanovitchm/mlops/blob/main/week_08/Week_09.pdf)
+**Week 09** Building a Reproducible Model Workflow Cont. - Final Pipeline, Release and Deploy [[Slides]](https://github.com/ivanovitchm/mlops/blob/main/week_09/Week_09.pdf)
 - Outline
 - Final Pipeline
 	- Big picture of the final pipeline [[Video]](https://loom.com/share/8f7116cd3d9c4a4ab8d33099ac641f79)
