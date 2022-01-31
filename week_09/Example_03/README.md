@@ -25,7 +25,7 @@ wandb artifact get remote_execution/test_data.csv:latest
 ```bash
 mlflow models predict \
                 -t csv \
-                -i ./artifacts/data_test.csv:v0/data_test.csv \
+                -i ./artifacts/test_data.csv:v0/test_data.csv \
                 -m model
 ```
 
