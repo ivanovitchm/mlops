@@ -153,7 +153,7 @@
 	- Test evaluation [[Part I]](https://loom.com/share/af0d821cc6334c0196373ebad9afc5eb) [[Source-Code]](https://github.com/ivanovitchm/mlops/tree/main/week_08/Example_05)
 
 **Week 09** Building a Reproducible Model Workflow Cont. - Final Pipeline, Release and Deploy [[Slides]](https://github.com/ivanovitchm/mlops/blob/main/week_09/Week_09.pdf)
-- Outline
+- Outline [[Video]](https://loom.com/share/2ca7790b78034e21b43e97ab2266eb23)
 - Final Pipeline
 	- Big picture of the final pipeline [[Video]](https://loom.com/share/8f7116cd3d9c4a4ab8d33099ac641f79)
 	- All together [[Part I]](https://loom.com/share/7008849cdd9c42a7885e96e56e760df2) [[Part II]](https://loom.com/share/2fd92eaaf2a44773a8f6e2d4ad412d97) [[Source-Code]](https://github.com/ivanovitchm/mlops/tree/main/week_09/Example_01)
