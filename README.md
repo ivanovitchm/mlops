@@ -19,12 +19,8 @@
 #### Lessons
 
 **Week 01**: Course Outline
-- Git and Version Control
-	- Introduction to Git [[Link]](https://app.dataquest.io/c/24/m/98/introduction-to-git)
-	- Git Remotes [[Link]](https://app.dataquest.io/c/24/m/119/git-remotes)
-	- Git Branches [[Link]](https://app.dataquest.io/c/24/m/120/git-branches)
-	- Merge Conflicts [[Link]](https://app.dataquest.io/c/24/m/121/merge-conflicts)
-	- Git Installation and Github integration [[Link]](https://app.dataquest.io/c/24/m/128/project%3A-git-installation-and-github-integration?path=2)
+- [Git and Version Control](https://www.dataquest.io/course/git-and-vcs/)
+    - You'll learn how to: a) organize your code using version control, b) resolve conflicts in version control, c) employ Git and Github to collaborate with others.
     
 **Week 02**: CLI fundamentals
 - Elements of the Command Line
