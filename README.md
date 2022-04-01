@@ -21,6 +21,7 @@
 **Week 01**: Course Outline
 - Git and Version Control[[Link]](https://www.dataquest.io/course/git-and-vcs/)
     - You'll learn how to: a) organize your code using version control, b) resolve conflicts in version control, c) employ Git and Github to collaborate with others.
+    - :facepunch: U1T1: guided project + getting a git repository.
     
 **Week 02**: CLI fundamentals
 - Elements of the Command Line
