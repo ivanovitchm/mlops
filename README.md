@@ -19,20 +19,12 @@
 #### Lessons
 
 **Week 01**: Course Outline
-- Git and Version Control[[Link]](https://www.dataquest.io/course/git-and-vcs/)
+- Git and Version Control [[Link]](https://www.dataquest.io/course/git-and-vcs/)
     - You'll learn how to: a) organize your code using version control, b) resolve conflicts in version control, c) employ Git and Github to collaborate with others.
     - :facepunch: U1T1: guided project + getting a git repository.
     
 **Week 02**: CLI fundamentals
-- Elements of the Command Line
-	- Introduction to the Command Line [[Link]](https://app.dataquest.io/c/67/m/383/introduction-to-the-command-line)
-	- The Filesystem [[Link]](https://app.dataquest.io/c/67/m/384/the-filesystem)
-	- Modifying the Filesystem [[Link]](https://app.dataquest.io/c/67/m/385/modifying-the-filesystem)
-	- Glob Patterns and Wildcards [[Link]](https://app.dataquest.io/c/67/m/386/glob-patterns-and-wildcards)
-	- Users and Permissions [[Link]](https://app.dataquest.io/c/67/m/387/users-and-permissions)
-- Text Processing in the Command Line
-	- Getting Help and Reading Documentation [[Link]](https://app.dataquest.io/c/68/m/388/getting-help-and-reading-documentation)
-	- File Inspection [[Link]](https://app.dataquest.io/c/68/m/389/file-inspection)
-	- Text Processing [[Link]](https://app.dataquest.io/c/68/m/390/text-processing)
-	- Redirection and Pipelines [[Link]](https://app.dataquest.io/c/68/m/391/redirection-and-pipelines)
-	- Standard Streams and File Descriptors [[Link]](https://app.dataquest.io/c/68/m/392/standard-streams-and-file-descriptors)
+- Elements of the Command Line [[Link]](https://www.dataquest.io/course/command-line-elements/)
+    - You'll learn how to: a) employ the command line for Data Science, b) modify the behavior of commands with options, c) employ glob patterns and wildcards, d) define Important command line concepts, e) navigate he filesystem, f) manage users and permissions.
+- Text Processing in the Command Line [[Link]](https://www.dataquest.io/course/text-processing-cli/)
+    - You'll learn how to: a) read and explore documentation, b) perform basic text processing, c) redirect and pipe output, d) inspect files, e) define different kinds of output, f) employ streams and file descriptors.
