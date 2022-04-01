@@ -28,4 +28,4 @@
     - You'll learn how to: a) employ the command line for Data Science, b) modify the behavior of commands with options, c) employ glob patterns and wildcards, d) define Important command line concepts, e) navigate he filesystem, f) manage users and permissions.
 - Text Processing in the Command Line [[Link]](https://www.dataquest.io/course/text-processing-cli/)
     - You'll learn how to: a) read and explore documentation, b) perform basic text processing, c) redirect and pipe output, d) inspect files, e) define different kinds of output, f) employ streams and file descriptors.
-- capital_abcd: U1T2: working with command line.
+- :capital_abcd: U1T2: working with command line.
