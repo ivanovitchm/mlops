@@ -8,8 +8,8 @@
 
 #### References
 
-- :books: Chip Huyen. Designing Machine Learning Systems: An Iterative Process for Production-Ready Applications. [[Link]](https://www.amazon.com/Designing-Machine-Learning-Systems-Production-Ready/dp/1098107969)
-- :books: Noah Gift, Alfredo Deza. Practical MLOps: Operationalizing Machine Learning Models [[Link]](https://www.amazon.com/Practical-MLOps-Operationalizing-Machine-Learning/dp/1098103017/)
+- :books: Noah Gift, Alfredo Deza. Practical MLOps: Operationalizing Machine Learning Models [[Link]](https://www.oreilly.com/library/view/practical-mlops/9781098103002/)
+- :books: Chip Huyen. Designing Machine Learning Systems: An Iterative Process for Production-Ready Applications. [[Link]](https://www.oreilly.com/library/view/designing-machine-learning/9781098107956/)
 - :books: Hannes Hapke, Catherine Nelson. Building Machine Learning Pipelines. [[Link]](https://www.oreilly.com/library/view/building-machine-learning/9781492053187/)
 - :books: Mariano Anaya. Clean Code in Python [[Link]](https://www.packtpub.com/product/clean-code-in-python-second-edition/9781800560215)
 - :books: Aurélien Géron. Hands on Machine Learning with Scikit-Learn, Keras and TensorFlow. [[Link]](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/)
