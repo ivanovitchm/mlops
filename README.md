@@ -1,5 +1,5 @@
 
-<center><img width="700" src="Images/ctec.jpeg"></center>
+<center><img width="800" src="images/ctec.jpeg"></center>
 
 # Federal University of Rio Grande do Norte
 ## Technology Center
@@ -15,10 +15,11 @@
 - :books: Aurélien Géron. Hands on Machine Learning with Scikit-Learn, Keras and TensorFlow. [[Link]](https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/)
 - :fist_right: Dataquest Academic Program [[Link]](https://www.dataquest.io/academic-program/)
 - :smiley: CS329S - ML Systems Design [[Link]](https://stanford-cs329s.github.io/syllabus.html)
+- :dart: Machine Learning Operations [[Link]](https://ml-ops.org/)
 
 #### Lessons
 
-**Week 01**: Course Outline
+**Week 01**: Course Outline [![Open in PDF](https://img.shields.io/badge/-PDF-EC1C24?style=flat-square&logo=adobeacrobatreader)](https://github.com/ivanovitchm/mlops/tree/main/lessons/week_01/course_outline.pdf)
 - Git and Version Control [[Link]](https://www.dataquest.io/course/git-and-vcs/)
     - You'll learn how to: a) organize your code using version control, b) resolve conflicts in version control, c) employ Git and Github to collaborate with others.
     - :facepunch: U1T1: guided project + getting a git repository.
