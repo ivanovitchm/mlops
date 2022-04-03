@@ -20,7 +20,7 @@
 #### Lessons
 
 **Week 01**: Course Outline [![Open in PDF](https://img.shields.io/badge/-PDF-EC1C24?style=flat-square&logo=adobeacrobatreader)](https://github.com/ivanovitchm/mlops/tree/main/lessons/week_01/course_outline.pdf)
-- Git and Version Control [[Link]](https://www.dataquest.io/course/git-and-vcs/)
+- Git and Version Control [![Open in Dataquest](https://img.shields.io/badge/link-dataquest-green)](https://www.dataquest.io/course/git-and-vcs/)
     - You'll learn how to: a) organize your code using version control, b) resolve conflicts in version control, c) employ Git and Github to collaborate with others.
     - :facepunch: U1T1: guided project + getting a git repository.
     
