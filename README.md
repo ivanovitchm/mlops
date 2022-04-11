@@ -30,3 +30,26 @@
 - Text Processing in the Command Line [![Open in Dataquest](https://img.shields.io/badge/link-dataquest-green)](https://www.dataquest.io/course/text-processing-cli/)
     - You'll learn how to: a) read and explore documentation, b) perform basic text processing, c) redirect and pipe output, d) inspect files, e) define different kinds of output, f) employ streams and file descriptors.
 - :capital_abcd: U1T2: working with command line.
+
+
+**Week 03** - Clean Code Principles for Data Science and Machine Learning [[Slides]](https://github.com/ivanovitchm/mlops/blob/main/lessons/week_03/Coding_Best_Practices.pdf)
+	
+- Outline [[Video]](https://loom.com/share/22c62817b7044d00971024b300f854ca)
+- Coding Best Practices [[Video]](https://loom.com/share/e40da31a79614d539e4bd98e8a846c0c)
+- Writing Clean Code [[Video]](https://loom.com/share/9936fa3c506648ce9e623e4efdf3b981)
+- Refactoring Code [[Video]](https://loom.com/share/00431f4eb13d47babe9c5019c297ce6e)
+- Efficient Code [[Video]](https://loom.com/share/7962eff4f3bc4254a860258b900d59eb)
+- Documentation [[Video]](https://loom.com/share/766f75940d0f4a81ba7aafd9332bcb72)
+- Python Code Quality Authority (PCQA) - **pycodestyle** [[Video]](https://loom.com/share/750f69d757ac48e187a1de6ea463a69c)
+- PCQA - **pylint** [[Video]](https://loom.com/share/0baabe39682c4b04a77db41213973f0e)
+- PCQA - **autopep8** [[Video]](https://loom.com/share/8d638ca9db564b44bb17abfe0ef97727)
+- PCQA - **nbQA** [[Video]](https://loom.com/share/5880424f13c745a29263e1757407db69)
+- :arrow_forward: Hands on 
+	- :floppy_disk: Datasets [[Link]](https://github.com/ivanovitchm/mlops/blob/main/lessons/week_03/data)
+	- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/ivanovitchm/mlops/blob/main/lessons/week_03/code/1_Writing_Clean_Code.ipynb) [Writting Clean Code](https://github.com/ivanovitchm/mlops/blob/main/lessons/week_03/code/1_Writing_Clean_Code.ipynb)
+	- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/ivanovitchm/mlops/blob/main/lessons/week_03/code/exercise_01_refactoring_code.ipynb) [Exercise 01](https://github.com/ivanovitchm/mlops/blob/main/lessons/week_03/code/exercise_01_refactoring_code.ipynb)
+	- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/ivanovitchm/mlops/blob/main/lessons/week_03/code/exercise_02_optimizing_code_common_books_example.ipynb) [Exercise 02](https://github.com/ivanovitchm/mlops/blob/main/lessons/week_03/code/exercise_02_optimizing_code_common_books_example.ipynb)
+	- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/ivanovitchm/mlops/blob/main/lessons/week_03/code/exercise_03_optimizing_code_holiday_gifts.ipynb) [Exercise 03](https://github.com/ivanovitchm/mlops/blob/main/lessons/week_03/code/exercise_03_optimizing_code_holiday_gifts.ipynb)
+	- [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/ivanovitchm/mlops/blob/main/lessons/week_03/code/Using_pycodestyle.ipynb) [Using pycodestyle](https://github.com/ivanovitchm/mlops/blob/main/lessons/week_03/code/Using_pycodestyle.ipynb)
+	- :snake: using pylint - [[script]](https://github.com/ivanovitchm/mlops/blob/main/lessons/week_03/code/using_pylint.py) [[refactored script]](https://github.com/ivanovitchm/mlops/blob/main/lessons/week_03/code/using_pylint_refactored.py)
+	- :memo: Best practices for writing functions [[Link]](https://app.dataquest.io/c/72/m/411/best-practices-for-writing-functions)
