@@ -32,9 +32,9 @@
 - :capital_abcd: U1T2: working with command line.
 
 
-**Week 03** - Clean Code Principles for Data Science and Machine Learning [[Slides]](https://github.com/ivanovitchm/mlops/blob/main/lessons/week_03/Coding_Best_Practices.pdf)
+**Week 03** - Clean Code Principles for Data Science and Machine Learning [![Open in PDF](https://img.shields.io/badge/-PDF-EC1C24?style=flat-square&logo=adobeacrobatreader)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week_03/Coding_Best_Practices.pdf)
 	
-- Outline [[Video]](https://loom.com/share/22c62817b7044d00971024b300f854ca)
+- Outline [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://loom.com/share/22c62817b7044d00971024b300f854ca)
 - Coding Best Practices [[Video]](https://loom.com/share/e40da31a79614d539e4bd98e8a846c0c)
 - Writing Clean Code [[Video]](https://loom.com/share/9936fa3c506648ce9e623e4efdf3b981)
 - Refactoring Code [[Video]](https://loom.com/share/00431f4eb13d47babe9c5019c297ce6e)
