@@ -52,4 +52,4 @@
 	- Exercise 03 [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week_03/code/exercise_03_optimizing_code_holiday_gifts.ipynb)
 	- Using pycodestyle [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week_03/code/Using_pycodestyle.ipynb)
 	- Using pylint - script [![Python](https://img.shields.io/badge/-Script-gray?style=flat-square&logo=python)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week_03/code/using_pylint.py) refactored script [![Python](https://img.shields.io/badge/-Script-gray?style=flat-square&logo=python)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week_03/code/using_pylint_refactored.py)
-	- :memo: Best practices for writing functions [[Link]](https://app.dataquest.io/c/72/m/411/best-practices-for-writing-functions)
+	- Functions: Advanced - Best practices for writing functions [![Open in Dataquest](https://img.shields.io/badge/link-dataquest-green)](https://www.dataquest.io/course/python-advanced-functions/)
