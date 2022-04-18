@@ -64,6 +64,8 @@
 - Model Drift [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://loom.com/share/188460d86ff4444d84ad46e3021d3ece)
 - Hands on
 	- Production ready code [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week_04/Production_Ready_Code.ipynb)
-	- Data Visualization Fundamentals [[Link]](https://app.dataquest.io/course/data-visualization-fundamentals)
-	- Storytelling Data Visualization and Information Design [[Link]](https://app.dataquest.io/course/storytelling-information-design)
+	- Data Visualization Fundamentals [![Open in Dataquest](https://img.shields.io/badge/link-dataquest-green)](https://app.dataquest.io/course/data-visualization-fundamentals)
+    - You will learn how to: a) how to use data visualization to explore data and b) how and when to use the most common plots.
+	- Storytelling Data Visualization and Information Design [![Open in Dataquest](https://img.shields.io/badge/link-dataquest-green)](https://app.dataquest.io/course/storytelling-information-design)
+    - You will learn how to: a) Create graphs using information design principles, b) create narrative data visualizations using Matplotlib, c) create visual patterns using Gestalt principles, d) control attention using pre-attentive attributes and e) employ Matplotlib's built-in styles.
 
