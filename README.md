@@ -53,3 +53,17 @@
 	- Using pycodestyle [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week_03/code/Using_pycodestyle.ipynb)
 	- Using pylint - script [![Python](https://img.shields.io/badge/-Script-gray?style=flat-square&logo=python)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week_03/code/using_pylint.py) refactored script [![Python](https://img.shields.io/badge/-Script-gray?style=flat-square&logo=python)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week_03/code/using_pylint_refactored.py)
 	- Functions: Advanced - Best practices for writing functions [![Open in Dataquest](https://img.shields.io/badge/link-dataquest-green)](https://www.dataquest.io/course/python-advanced-functions/)
+    
+**Week 04** Production Ready Code [![Open in PDF](https://img.shields.io/badge/-PDF-EC1C24?style=flat-square&logo=adobeacrobatreader)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week_04/production_ready_code.pdf)
+- Outline [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://loom.com/share/23b3e0e46d9c4a0694076b8b946dba49)
+- Catching Errors [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://loom.com/share/92a41ada029a47139e8db0ed9013260b)
+- Testing and Data Science [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://loom.com/share/2bfa70efd597484380a15351b51dddb6)
+- A brief introduction about pytest [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://loom.com/share/401fbe0c7d234616bc0f0a253ca7066e)
+- Logging [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://loom.com/share/ef653e27a24a4253b573601888d57813)
+- Case study: testing and logging [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://loom.com/share/a47ca7aa1b294da4b5cb5c732056bd74)
+- Model Drift [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://loom.com/share/188460d86ff4444d84ad46e3021d3ece)
+- Hands on
+	- Production ready code [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week_04/Production_Ready_Code.ipynb)
+	- Data Visualization Fundamentals [[Link]](https://app.dataquest.io/course/data-visualization-fundamentals)
+	- Storytelling Data Visualization and Information Design [[Link]](https://app.dataquest.io/course/storytelling-information-design)
+
