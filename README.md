@@ -68,4 +68,31 @@
         - You will learn how to: a) how to use data visualization to explore data and b) how and when to use the most common plots.
 	- Storytelling Data Visualization and Information Design [![Open in Dataquest](https://img.shields.io/badge/link-dataquest-green)](https://app.dataquest.io/course/storytelling-information-design)
         - You will learn how to: a) Create graphs using information design principles, b) create narrative data visualizations using Matplotlib, c) create visual patterns using Gestalt principles, d) control attention using pre-attentive attributes and e) employ Matplotlib's built-in styles.
+        
+**Week 05** Building a Data Pipeline [![Open in Dataquest](https://img.shields.io/badge/link-dataquest-green)](https://www.dataquest.io/course/building-a-data-pipeline/)
+- Define functional programming
+- Write a robust data pipeline with a scheduler in Python
+- Define advanced Python concepts such as closures and decorators
+
+**Week 06** Building a Reproducible Model Workflow [[Slide]](https://github.com/ivanovitchm/mlops/blob/main/lessons/week_06/week_06_building_a_reproducible_model_workflow.pdf)
+- Outline [[Video]](https://loom.com/share/ffda8c71fc73420bb033fec66154e7fd)
+- Business Reflections [[Video]](https://loom.com/share/512b085e97df4ca4ad1e9b8794d271a2)
+- Introduction to MLOps [[Video]](https://loom.com/share/3a900fc1485b485ebbff37aa48dd8a2c)
+- A brief history of MLOps and Tools [[Video]](https://loom.com/share/a24d9f4fb71941439d3623b07e5462ed)
+- Tools and environment installation [[Video]](https://loom.com/share/3f7ee44dbf00405a97610de213c74027) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/ivanovitchm/mlops/blob/main/lessons/week_06/code/README.ipynb) [README](https://github.com/ivanovitchm/mlops/blob/main/lessons/week_06/code/README.ipynb)
+- Tools and environment installation cont. [[Video]](https://loom.com/share/c7e2699454fe41b2a1e07fcdfd0ae636) [environment.yml](https://github.com/ivanovitchm/mlops/blob/main/lessons/week_06/code/environment.yml)
+- Machine Learning Pipelines [[Video]](https://loom.com/share/0a9d618a414c4e00b919f37c0f0f3fe0)
+- Machine Learning Pipelines - Command Line Interface [[Video]](https://loom.com/share/ce45492a9cbf474999ca17079e18f2bf) [my_script.py](https://github.com/ivanovitchm/mlops/blob/main/lessons/week_06/code/my_script.py)
+- Versioning Data and Artifacts [[Video]](https://loom.com/share/dc0afb390ea1477a9fa0ed94c3771b32) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/ivanovitchm/mlops/blob/main/lessons/week_06/code/upload-and-version-artifacts.ipynb) [Upload and version artifacts](https://github.com/ivanovitchm/mlops/blob/main/lessons/week_06/code/upload-and-version-artifacts.ipynb)
+- Guided Exercise - CLI + Weights and Biases [[Video]](https://loom.com/share/84b54f1b3fce489684cb9abaa53cd1ad) [Guided Exercise 01](https://github.com/ivanovitchm/mlops/blob/main/lessons/week_06/code/guided_exercise_01.zip)
+- MLflow Projects [[Video]](https://loom.com/share/6cc212dcf75b44599611aa3554d59baf)
+- Introduction to YAML [[Video]](https://loom.com/share/21091ed6345f412bb55d641f71b80846) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](http://colab.research.google.com/github/ivanovitchm/mlops/blob/main/lessons/week_06/code/Introduction_to_YAML.ipynb) [YAML Intro.](https://github.com/ivanovitchm/mlops/blob/main/lessons/week_06/code/Introduction_to_YAML.ipynb)
+- Guided Exercise - Build a MLflow component [[Video]](https://loom.com/share/1d31eef285e8462d8b23a70c904952e6) [Guided Exercise 02](https://github.com/ivanovitchm/mlops/blob/main/lessons/week_06/code/guide_exercise_02.zip)
+- Linking together the components MLflow + Hydra [[Video]](https://loom.com/share/45eafb8eada046939b9747b2fbff689f)
+- Guided Exercise - Multiples MLflow components + Hydra [[Video]](https://loom.com/share/a9bf75d308464f5b8945cf7e4d63357d) [Guided Exercise 03](https://github.com/ivanovitchm/mlops/blob/main/lessons/week_06/code/guide_exercise_03.zip)
+- Additional Material
+	- Context Managers [[Link]](https://app.dataquest.io/c/72/m/412/context-managers/2/using-context-managers)
+	- Introduction to Decorators [[Link]](https://app.dataquest.io/c/72/m/413/introduction-to-decorators)
+	- Decorators: advanced [[Link]](https://app.dataquest.io/c/72/m/414/decorators%3A-advanced)
+
 
