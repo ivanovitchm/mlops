@@ -74,7 +74,7 @@
 - Write a robust data pipeline with a scheduler in Python
 - Define advanced Python concepts such as closures and decorators
 
-**Week 06** Building a Reproducible Model Workflow [[Slide]](https://github.com/ivanovitchm/mlops/blob/main/lessons/week_06/week_06_building_a_reproducible_model_workflow.pdf)
+**Week 06** Building a Reproducible Model Workflow [![Open in PDF](https://img.shields.io/badge/-PDF-EC1C24?style=flat-square&logo=adobeacrobatreader)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week_06/week_06_building_a_reproducible_model_workflow.pdf)
 - Outline [[Video]](https://loom.com/share/ffda8c71fc73420bb033fec66154e7fd)
 - Business Reflections [[Video]](https://loom.com/share/512b085e97df4ca4ad1e9b8794d271a2)
 - Introduction to MLOps [[Video]](https://loom.com/share/3a900fc1485b485ebbff37aa48dd8a2c)
