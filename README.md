@@ -95,3 +95,13 @@
 	- Context Managers 
 	- Introduction to Decorators 
 	- Decorators: advanced 
+    
+**Week 07** Building a Reproducible Model Workflow Cont. - Introduction to Machine Learning [![Open in PDF](https://img.shields.io/badge/-PDF-EC1C24?style=flat-square&logo=adobeacrobatreader)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week_07/Introduction_ml.pdf)
+
+- Outline [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://loom.com/share/b9cb76cc4ad845f0a1854326f269a15e)
+- What is Machine Learning? [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://loom.com/share/37e55f4c176a433b821931561a86eafd)
+- Machine Learning Types [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://loom.com/share/c1b9603733034667800a0f9f5c9df29b)
+- Variables, Pipeline, Controlling Chaos [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://loom.com/share/70dc80d5eea843b890c602bb56e0b3cf)
+- Data Segregation - train, dev and test sets [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://loom.com/share/5413392ea05941db96bd9934b6c13e50)
+- Bias vs Variance [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://loom.com/share/c541eab8e9e44116bce1b11d70c8565c)
+- :rabbit2: Machine Learning Fundamentals [![Open in Dataquest](https://img.shields.io/badge/link-dataquest-green)](https://www.dataquest.io/course/machine-learning-fundamentals/)
