@@ -9,7 +9,7 @@ reusability.
 To run the project, execute the script:
 
 ```bash
-mlflow run . -P reference_artifact="week_07_data_segregation/train_data.csv:latest" \
-             -P sample_artifact="week_07_data_segregation/test_data.csv:latest" \
+mlflow run . -P reference_artifact="week_08_data_segregation/train_data.csv:latest" \
+             -P sample_artifact="week_08_data_segregation/test_data.csv:latest" \
              -P ks_alpha=0.05
 ```
