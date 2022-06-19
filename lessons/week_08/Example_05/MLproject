@@ -1,0 +1,9 @@
+name: data_checks
+conda_env: conda.yml
+
+entry_points:
+  main:
+    # NOTE: the -s flag is necessary, otherwise pytest will capture all the output and it
+    # will not be uploaded to W&B. Hence, the log in W&B will be empty.
+    command: >-
+      pytest . -s -vv
