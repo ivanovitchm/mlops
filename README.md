@@ -107,7 +107,7 @@
 - :rabbit2: Machine Learning Fundamentals [![Open in Dataquest](https://img.shields.io/badge/link-dataquest-green)](https://www.dataquest.io/course/machine-learning-fundamentals/)
 
 
-**Week 08** Building a Reproducible Model Workflow Cont. - ETL, Data Checks, Data Segregation [![Open in PDF](https://img.shields.io/badge/-PDF-EC1C24?style=flat-square&logo=adobeacrobatreader)](https://github.com/ivanovitchm/mlops/blob/main/lessons/Week%2008%20-%20ETL%2C%20Data%20Checks%2C%20Data%20Segregation.pdf)
+**Week 08** Building a Reproducible Model Workflow Cont. - ETL, Data Checks, Data Segregation [![Open in PDF](https://img.shields.io/badge/-PDF-EC1C24?style=flat-square&logo=adobeacrobatreader)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week_08/Week%2008%20-%20ETL%2C%20Data%20Checks%2C%20Data%20Segregation.pdf)
 
 - Outline [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://loom.com/share/032bb30d236f4be392185df4421e1ff5)
 - Extract, Transform, Load (ETL)
