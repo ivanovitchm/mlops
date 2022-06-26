@@ -1,0 +1,15 @@
+name: download_data
+conda_env: conda.yml
+
+entry_points:
+  main:
+    parameters:
+      model_export:
+        description: Fully-qualified artifact name for the exported model to evaluate
+        type: str
+      test_data:
+        description: Fully-qualified artifact name for the test data
+        type: str
+    command: >-
+      python run.py --model_export {model_export} \
+                    --test_data {test_data}

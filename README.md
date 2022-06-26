@@ -163,3 +163,17 @@
         - Part I [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://loom.com/share/af0d821cc6334c0196373ebad9afc5eb)
         - Source-Code [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week_09/Example_05)
 
+**Week 10** Building a Reproducible Model Workflow Cont. - Final Pipeline, Release and Deploy [![Open in PDF](https://img.shields.io/badge/-PDF-EC1C24?style=flat-square&logo=adobeacrobatreader)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week_10/Week_10.pdf)
+- Outline [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://loom.com/share/2ca7790b78034e21b43e97ab2266eb23)
+- Final Pipeline
+	- Big picture of the final pipeline [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://loom.com/share/8f7116cd3d9c4a4ab8d33099ac641f79)
+	- All together 
+        - Part I [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://loom.com/share/7008849cdd9c42a7885e96e56e760df2)
+        - Part II [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://loom.com/share/2fd92eaaf2a44773a8f6e2d4ad412d97) 
+        - Source-Code [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week_10/Example_01)
+- Release for reproducibility
+	- Create a GitHub repository for the final pipeline [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://loom.com/share/54847ec209aa4f07afc7fe4db7cf2608) [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/high_income)
+	- Semantic versioning and remote execution [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://loom.com/share/0765937109de4bddad1d5a5574f79fa3) [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week_10/Example_02)
+- Deployment
+	- Deploy with MLflow [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://loom.com/share/869ff59f7cc24bf0b6ed8669d7b85132) [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week_10/Example_03)
+
