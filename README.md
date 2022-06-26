@@ -127,3 +127,39 @@
 	- Multiple Hypothesis Testing [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://loom.com/share/c41c7c258ccf44dc9a40d85db9eb8ac8) [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week_08/Example_07)
 	- Multiple Hypothesis Testing Using MLFlow [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://loom.com/share/c28fa645c36c4293be757c80a046a9ee) [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week_08/Example_08)
 	- Multiple Hypothesis Testing Using Parameters in PyTest [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://loom.com/share/2a69248e155c4a6eb858f21ccac733a7) [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week_08/Example_09)
+    
+**Week 09** Building a Reproducible Model Workflow Cont. - Train, Validation and Experiment Tracking [![Open in PDF](https://img.shields.io/badge/-PDF-EC1C24?style=flat-square&logo=adobeacrobatreader)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week_09/Week_09.pdf)
+- Outline [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://loom.com/share/74da4a42d8ed47c582bfd62259f431e5)
+- A brief review [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://loom.com/share/489e44bb845e4f5981f852b3d8e2677c)
+- Decision Trees
+	- Introduction [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://loom.com/share/26fa8f8c45c942c5931d4523163f3fb5)
+	- Mathematical Foundations [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://loom.com/share/3325e85ad1824e42934949a3dfa46509)
+- Evaluation Metrics
+	- How to choose an evaluation metric? [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://loom.com/share/8d70d3dee2d242a3b149da98c0a743f0)
+	- Threshold metrics [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://loom.com/share/60918ec95a7f4345979fa1888e4bbd91)
+	- Ranking metrics [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://loom.com/share/91b7424fe1c54158ad7166f6dd3ad34d)
+- Implementing Pipelines
+	- MLOps Level 0 with Pipeline incorporating train
+        - Part I [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://loom.com/share/8bb86b419f264aad8e30451cb1611cc4) 
+        - Part II [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://loom.com/share/73829e3b55ab44d7bc7f81aa416e84f6)
+        - Part III [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://loom.com/share/1c41dd3896d74d51a24e4ccd2b299a06) 
+        - Source-Code [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week_09/Example_01)
+	- MLOps Level 0 with Pipeline incorporating train and preprocessing
+        - Part I [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://loom.com/share/892d93bf82234c908d45bb5baffba929) 
+        - Part II [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://loom.com/share/c70944ddb2af410da470c2a8fd52ace5) 
+        - Part III [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://loom.com/share/8af1b2cbfe5e4bb88da7ca53a5123263) 
+        - Source-Code [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week_09/Example_02) 
+	- MLOps Level 1 with Pipeline incorporating train and preprocessing
+        - Part I [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://loom.com/share/f7fa9aea76c34a968cbadec4c6455906)
+        - Part II [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://loom.com/share/c485890d580949da936bd98f0e4ce310) 
+        - Source-Code [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week_09/Example_03)
+	- MLOps Level 1 with Pipeline and Hyper-parameter Tuning
+        - Part I [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://loom.com/share/892d5f332c654405ad6132830a8cc9dc)
+        - Part II [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://loom.com/share/45fdf7970180484db85428b257ac8905)
+        - Part III [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://loom.com/share/5f11d9bfa64e4a14835518cfe7e47279)
+        - Part IV [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://loom.com/share/1852883028a74eaba10a35cf72624ef4)
+        - Source-Code [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week_09/Example_04)
+	- Test evaluation
+        - Part I [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://loom.com/share/af0d821cc6334c0196373ebad9afc5eb)
+        - Source-Code [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week_09/Example_05)
+
