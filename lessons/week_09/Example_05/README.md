@@ -8,6 +8,6 @@ Then, you will mark that model as **production ready**. Verify that the AUC and 
 To run the project, execute this script:
 
 ```bash
-mlflow run . -P test_data="week_07_data_segregation/test_data.csv:latest" \
-             -P model_export="week_08_example_04/model_export:v0"
+mlflow run . -P test_data="week_08_data_segregation/test_data.csv:latest" \
+             -P model_export="week_09_example_04/model_export:v0"
 ```
