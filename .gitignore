@@ -1,2 +1,42 @@
+# Python related files and directories
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Jupyter Notebook auxiliary files
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+*.nb_checkpoints/
+
+# DS_Store (macOS system files)
 .DS_Store
-.ipynb_checkpoints
+
+# Virtual Environments (Python)
+venv/
+*.venv
+venv.bak/
+*.venv.bak
+
+# Other good practices
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# IDE Tools
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+
+# System Files
+*.bak
+*.swp
+*.swo
+*.swn
+*.thumbs.db
+Thumbs.db
