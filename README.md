@@ -43,6 +43,6 @@
     - This week is all about mastering the art of writing clean and efficient code. As a future data scientist or machine learning engineer, writing code that is both understandable and maintainable is crucial. We'll dig into principles like DRY and KISS, refactoring and see how they can be applied to data science and machine learning projects.
 - 🤲 Hands-On Activities
     - [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/tree/main/lessons/week_03) **Topic Name**: Explore the practical aspects of the concepts discussed this week. Learn through coding exercises and real-world examples.
-	- [![Open in Dataquest](https://img.shields.io/badge/link-dataquest-green)](https://app.dataquest.io/c/86/m/476): **Functions**: fundamentals and intermediate
+	- [![Open in Dataquest](https://img.shields.io/badge/link-dataquest-green)](https://www.dataquest.io/course/python-dictionaries-apis-and-functions-for-web-development/): **Functions**: fundamentals and intermediate
         - :facepunch: **Skills You'll Gain**: You will learn how to a) define and create functions and pipelines, b) debug funcitons, c) define default arguments, d) use multiples return statements, e) return multiples variables, f) variable scopes and more. 
         - :hourglass_flowing_sand: Estimated time: 6h
