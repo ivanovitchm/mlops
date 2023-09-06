@@ -53,3 +53,5 @@
 - 🚀 Efficient Code
     - Time Complexity: Understanding the time complexity of your algorithms is crucial for handling larger data sets efficiently.
     - Space Complexity: Just like time, the amount of memory your program uses can also be a bottleneck.
+🤲 Hands-On Activities
+    - [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://img.shields.io/badge/-PDF-EC1C24?style=flat-square&logo=adobeacrobatreader)](https://github.com/ivanovitchm/mlops/tree/main/lessons/week_03) **Topic Name**: Explore the practical aspects of the concepts discussed this week. Learn through coding exercises and real-world examples.
