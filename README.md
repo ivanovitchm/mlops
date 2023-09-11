@@ -46,3 +46,19 @@
 	- [![Open in Dataquest](https://img.shields.io/badge/link-dataquest-green)](https://www.dataquest.io/course/python-dictionaries-apis-and-functions-for-web-development/): **Functions**: fundamentals and intermediate
         - :facepunch: **Skills You'll Gain**: You will learn how to a) define and create functions and pipelines, b) debug funcitons, c) define default arguments, d) use multiples return statements, e) return multiples variables, f) variable scopes and more. 
         - :hourglass_flowing_sand: Estimated time: 6h
+
+**Week 04**
+- [![Open in PDF](https://img.shields.io/badge/-PDF-EC1C24?style=flat-square&logo=adobeacrobatreader)](https://github.com/ivanovitchm/mlops/tree/main/lessons/week_04/week_4.pdf) Code Documentation and Tooling in Python
+- 🎯 Week Goals 
+    - The objective of this week is to delve into Python code documentation and related tooling. Understanding how to document code effectively will make your projects maintainable and understandable. We will explore line-level, function/module-level, and project-level documentation. 
+- 📝 PEP References
+    - [PEP-3107: Function Annotations](https://www.python.org/dev/peps/pep-3107/)
+    - [PEP-484: Type Hints](https://www.python.org/dev/peps/pep-0484/)
+    - [PEP-526: Variable Annotations](https://www.python.org/dev/peps/pep-0526/)
+    - [PEP-557: Data Classes](https://www.python.org/dev/peps/pep-0557/)
+    - [PEP-585: Type Hinting Generics In Standard Collections](https://www.python.org/dev/peps/pep-0585/)
+- 🤲 Hands-On Activities
+    - [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/tree/main/lessons/week_04) **Topic Name**: Explore Python documentation strategies and tooling through hands-on exercises.
+        - [Pylint](week_04/code/using_pylint.py)
+        - [Pycodestyle](week_04/code/using_pycodestyle.py)
+        - [Autopep8](week_04/code/using_autopep8.py)
