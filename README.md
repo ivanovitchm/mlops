@@ -59,6 +59,6 @@
     - [PEP-585: Type Hinting Generics In Standard Collections](https://www.python.org/dev/peps/pep-0585/)
 - 🤲 Hands-On Activities
     - [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/tree/main/lessons/week_04) **Topic Name**: Explore Python documentation strategies and tooling through hands-on exercises.
-        - [Pylint](week_04/code/using_pylint.py)
-        - [Pycodestyle](week_04/code/using_pycodestyle.py)
-        - [Autopep8](week_04/code/using_autopep8.py)
+        - [Pylint](https://github.com/pylint-dev/pylint)
+        - [Pycodestyle](https://github.com/PyCQA/pycodestyle)
+        - [Autopep8](https://github.com/hhatto/autopep8)
