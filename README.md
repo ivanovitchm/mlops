@@ -58,7 +58,7 @@
     - [PEP-557: Data Classes](https://www.python.org/dev/peps/pep-0557/)
     - [PEP-585: Type Hinting Generics In Standard Collections](https://www.python.org/dev/peps/pep-0585/)
 - 🤲 Hands-On Activities
-    - [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/tree/main/lessons/week_04) **Topic Name**: Explore Python documentation strategies and tooling through hands-on exercises.
+    - [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/tree/main/lessons/week_04/code) **Topic Name**: Explore Python documentation strategies and tooling through hands-on exercises.
         - [Pycodestyle](https://github.com/PyCQA/pycodestyle)
         - [Pylint](https://github.com/pylint-dev/pylint)
         - [Autopep8](https://github.com/hhatto/autopep8)
