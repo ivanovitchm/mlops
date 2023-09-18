@@ -62,3 +62,23 @@
         - [Pycodestyle](https://github.com/PyCQA/pycodestyle)
         - [Pylint](https://github.com/pylint-dev/pylint)
         - [Autopep8](https://github.com/hhatto/autopep8)
+
+
+**Week 05**
+- [![Open in PDF](https://img.shields.io/badge/-PDF-EC1C24?style=flat-square&logo=adobeacrobatreader)](https://github.com/ivanovitchm/mlops/tree/main/lessons/week_05/Week_05.pdf) Handling Errors, Writing Tests and Logs
+- 🎯 Week Goals
+    - This week, we dive into three essential pillars of reliable machine learning systems: error handling, testing, and logging. These are critical skills for building robust, maintainable ML pipelines and applications.
+- 💡 Key Concepts 
+    - Error Handling: Exception handling and graceful failures
+    - Writing Tests: Unit tests, Integration tests, and Mocking
+    - Logs: Importance of logging, Different log levels, Best practices
+- 🤲 Hands-On Activities
+    - [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/tree/main/lessons/week_05/Production_Ready_Code.ipynb) **Practical Error Handling, Testing, and Logging**: Explore these concepts through coding exercises and real-world examples.
+- 📖 Learning Resources
+    - [Python Exception Handling Techniques](https://docs.python.org/3/tutorial/errors.html)
+    - [pytest: A framework for Python testing](https://docs.pytest.org/en/latest/)
+    - [Python Logging: An In-Depth Tutorial](https://realpython.com/python-logging/)
+- 🛠 Tools to Explore
+    - [pytest](https://docs.pytest.org/en/latest/)
+    - [Python's built-in logging module](https://docs.python.org/3/library/logging.html)
+
