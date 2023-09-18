@@ -78,7 +78,3 @@
     - [Python Exception Handling Techniques](https://docs.python.org/3/tutorial/errors.html)
     - [pytest: A framework for Python testing](https://docs.pytest.org/en/latest/)
     - [Python Logging: An In-Depth Tutorial](https://realpython.com/python-logging/)
-- 🛠 Tools to Explore
-    - [pytest](https://docs.pytest.org/en/latest/)
-    - [Python's built-in logging module](https://docs.python.org/3/library/logging.html)
-
