@@ -75,7 +75,7 @@
     - [pytest: A framework for Python testing](https://docs.pytest.org/en/latest/)
     - [Python Logging: An In-Depth Tutorial](https://realpython.com/python-logging/)
 
-*Week 06**
+**Week 06**
 - [![Open in PDF](https://img.shields.io/badge/-PDF-EC1C24?style=flat-square&logo=adobeacrobatreader)](https://github.com/ivanovitchm/mlops/tree/main/lessons/week_06/ML_Fundamentals.pdf) Machine Learning Fundamentals
     - What is Machine Learning (ML)? [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://www.loom.com/share/098676fae4c2464788dd67ac1b419340)
     - ML types [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://www.loom.com/share/4005e7ef95d4431db1bd266979a6789c)
