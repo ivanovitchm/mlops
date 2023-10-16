@@ -90,4 +90,4 @@
 - [![Open in PDF](https://img.shields.io/badge/-PDF-EC1C24?style=flat-square&logo=adobeacrobatreader)](https://github.com/ivanovitchm/mlops/tree/main/lessons/week_06/week_06.pdf) Essential Guide for NLP
     - Pre-processing and cleaning
     - Text representation
-    - [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/tree/main/lessons/week_06/NLP.ipynb) **Prepare Text Dada**: manual tokenization, NLTK, Scikit-Learng, Keras, so on. 
+    - [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/tree/main/lessons/week_06/NLP.ipynb) **Preparing Text Data**: manual tokenization, NLTK, Scikit-Learng, Keras, so on. 
