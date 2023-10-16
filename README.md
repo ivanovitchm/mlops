@@ -87,3 +87,7 @@
         - How to choose an evaluation metric? [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://www.loom.com/share/3dd9bd6dcb844704ba9cd1e1b34932c3)
         - Threshold metrics [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://www.loom.com/share/efc3248b6f8747a3ab86cd22cadde993)
         - Ranking metrics [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://www.loom.com/share/1394db7fc27e4592af6f538c06cebbd1)
+- [![Open in PDF](https://img.shields.io/badge/-PDF-EC1C24?style=flat-square&logo=adobeacrobatreader)](https://github.com/ivanovitchm/mlops/tree/main/lessons/week_06/week_06.pdf) Essential Guide for NLP
+    - Pre-processing and cleaning
+    - Text representation
+    - [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/tree/main/lessons/week_06/NLP.ipynb) **Prepare Text Dada**: manual tokenization, NLTK, Scikit-Learng, Keras, so on. 
