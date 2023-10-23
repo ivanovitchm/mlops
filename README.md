@@ -91,3 +91,10 @@
     - Pre-processing and cleaning
     - Text representation
     - [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/tree/main/lessons/week_06/NLP.ipynb) **Preparing Text Data**: manual tokenization, NLTK, Scikit-Learng, Keras, so on. 
+
+**Week 07**
+- [![Open in PDF](https://img.shields.io/badge/-PDF-EC1C24?style=flat-square&logo=adobeacrobatreader)](https://github.com/ivanovitchm/mlops/tree/main/lessons/week_07/week_07.pdf) Steps to Process Film Review Data for Sentiment Analysis
+    - [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/tree/main/lessons/week_07/week_07.ipynb) **Hands on Extract, Transform and Load (ETL)**: opening and reading files, cleaning the content,compiling a preliminary vocabulary, processing multiple files, refining the vocabulary, saving the final vocabulary.
+
+
+
