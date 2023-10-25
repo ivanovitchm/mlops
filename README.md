@@ -106,7 +106,7 @@
     - Exponentially Weighted Average [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://www.loom.com/share/eb2e3905d23742d98572d14120fb3f57)
     - Adam, Momentum, RMSProp, Learning Rate Decay [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://www.loom.com/share/6b4b3a14b3044dfdbe76a5606bc8e513)
     - Hands on DL fundamentals [![Open in Dataquest](https://img.shields.io/badge/link-dataquest-green)](https://www.dataquest.io/course/deep-learning-fundamentals/)
-    - You'll learn how to: a) Understand how neural networks are represented; b) understand how adding hidden layers can provide improved model performance; c) Understand how neural networks capture nonlinearity in the data.
+        - You'll learn how to: a) Understand how neural networks are represented; b) understand how adding hidden layers can provide improved model performance; c) Understand how neural networks capture nonlinearity in the data.
 
 
 
