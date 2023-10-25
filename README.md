@@ -95,6 +95,18 @@
 **Week 07**
 - [![Open in PDF](https://img.shields.io/badge/-PDF-EC1C24?style=flat-square&logo=adobeacrobatreader)](https://github.com/ivanovitchm/mlops/tree/main/lessons/week_07/week_07.pdf) Steps to Process Film Review Data for Sentiment Analysis
     - [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/tree/main/lessons/week_07/week_07.ipynb) **Hands on Extract, Transform and Load (ETL)**: opening and reading files, cleaning the content,compiling a preliminary vocabulary, processing multiple files, refining the vocabulary, saving the final vocabulary.
+- Deep Learning Fundamentals
+     - The perceptron [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://www.loom.com/share/8d0ed35c632a4f0e805c103376974ec6)
+    - Building Neural Networks [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://www.loom.com/share/4ed93e63f36f468dad163bde0ed4102c)
+    - Matrix Dimension [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://www.loom.com/share/ac46a8425264456ea91f9644df3d992a)
+    - Applying Neural Networks [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://www.loom.com/share/24f247d0c8a74a48b3e481985fd843bd)
+    - Training a Neural Networks [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://www.loom.com/share/c96bebdd16d9444e9c4adf23a4a93398)
+    - Backpropagation with Pencil & Paper [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://www.loom.com/share/3098f18d6fdc4a039d5e382357bebc82)
+    - Learning rate & Batch Size [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://www.loom.com/share/4271c1e07f294ec181a0b40b93f604b7)
+    - Exponentially Weighted Average [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://www.loom.com/share/eb2e3905d23742d98572d14120fb3f57)
+    - Adam, Momentum, RMSProp, Learning Rate Decay [![Open in Loom](https://img.shields.io/badge/-Video-83DA77?style=flat-square&logo=loom)](https://www.loom.com/share/6b4b3a14b3044dfdbe76a5606bc8e513)
+    - Hands on DL fundamentals [![Open in Dataquest](https://img.shields.io/badge/link-dataquest-green)](https://www.dataquest.io/course/deep-learning-fundamentals/)
+    - You'll learn how to: a) Understand how neural networks are represented; b) understand how adding hidden layers can provide improved model performance; c) Understand how neural networks capture nonlinearity in the data.
 
 
 
