@@ -109,4 +109,11 @@
         - You'll learn how to: a) Understand how neural networks are represented; b) understand how adding hidden layers can provide improved model performance; c) Understand how neural networks capture nonlinearity in the data.
 
 
+**Week 08**
+- [![Open in PDF](https://img.shields.io/badge/-PDF-EC1C24?style=flat-square&logo=adobeacrobatreader)](https://github.com/ivanovitchm/mlops/tree/main/lessons/week_08/week_08.pdf) Construct a Neural Bag-of-Words Framework for Evaluating Sentiments
+    - [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/tree/main/lessons/week_08/week_08.ipynb) **Hands on Sentiment Analysis Model**.
+- [Crash course about Weights and Biases]( https://www.wandb.courses/courses/effective-mlops-model-development)
 
+
+
+   
