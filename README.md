@@ -125,6 +125,6 @@
     - [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/tree/main/lessons/week_09/train.ipynb) **Train**.
 
 - Sequence models for Deep Learning [![Open in Dataquest](https://img.shields.io/badge/link-dataquest-green)](https://www.dataquest.io/course/sequence-models-for-deep-learning/)
-        - You'll learn how to: a) describing sequential Neural Network models; b) determining when to use RNN, GRU, and LSTM; c) implement a sequential model using a basic RNN.
+    - You'll learn how to: a) describing sequential Neural Network models; b) determining when to use RNN, GRU, and LSTM; c) implement a sequential model using a basic RNN.
 
    
