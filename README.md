@@ -115,5 +115,16 @@
 - [Crash course about Weights and Biases]( https://www.wandb.courses/courses/effective-mlops-model-development)
 
 
+**Week 09**
+- [![Open in PDF](https://img.shields.io/badge/-PDF-EC1C24?style=flat-square&logo=adobeacrobatreader)](https://github.com/ivanovitchm/mlops/tree/main/lessons/week_09/Week_09.pdf) A MLOps case study using Weights and Biases
+    - [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/tree/main/lessons/week_09/fetch_data.ipynb) **Fetch Data**.
+    - [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/tree/main/lessons/week_09/EDA.ipynb) **EDA**.
+     - [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/tree/main/lessons/week_09/preprocessing.ipynb) **Preprocessing Data**.
+    - [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/tree/main/lessons/week_09/data_check.ipynb) **Data Check**.
+    - [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/tree/main/lessons/week_09/data_segregation.ipynb) **Data Segregation**.
+    - [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/tree/main/lessons/week_09/train.ipynb) **Train**.
+
+- Sequence models for Deep Learning [![Open in Dataquest](https://img.shields.io/badge/link-dataquest-green)](https://www.dataquest.io/course/sequence-models-for-deep-learning/)
+        - You'll learn how to: a) describing sequential Neural Network models; b) determining when to use RNN, GRU, and LSTM; c) implement a sequential model using a basic RNN.
 
    
