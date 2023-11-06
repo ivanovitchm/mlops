@@ -122,6 +122,7 @@
      - [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/tree/main/lessons/week_09/preprocessing.ipynb) **Preprocessing Data**.
     - [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/tree/main/lessons/week_09/data_check.ipynb) **Data Check**.
     - [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/tree/main/lessons/week_09/data_segregation.ipynb) **Data Segregation**.
+    - [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/tree/main/lessons/week_09/vocab_gen.ipynb) **Vocabulary creation**.
     - [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/tree/main/lessons/week_09/train.ipynb) **Train**.
 
 - Sequence models for Deep Learning [![Open in Dataquest](https://img.shields.io/badge/link-dataquest-green)](https://www.dataquest.io/course/sequence-models-for-deep-learning/)
