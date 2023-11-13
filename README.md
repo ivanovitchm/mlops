@@ -123,9 +123,14 @@
     - [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/tree/main/lessons/week_09/data_check.ipynb) **Data Check**.
     - [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/tree/main/lessons/week_09/data_segregation.ipynb) **Data Segregation**.
     - [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/tree/main/lessons/week_09/vocab_gen.ipynb) **Vocabulary creation**.
-    - [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/tree/main/lessons/week_09/train.ipynb) **Train**.
+    - [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/tree/main/lessons/week_09/train.pipynb) **Train**.
 
 - Sequence models for Deep Learning [![Open in Dataquest](https://img.shields.io/badge/link-dataquest-green)](https://www.dataquest.io/course/sequence-models-for-deep-learning/)
     - You'll learn how to: a) describing sequential Neural Network models; b) determining when to use RNN, GRU, and LSTM; c) implement a sequential model using a basic RNN.
+
+**Week 10**
+
+- Natural Language Processing for Deep Learning [![Open in Dataquest](https://img.shields.io/badge/link-dataquest-green)](https://www.dataquest.io/course/natural-language-processing-for-deep-learning/)
+    - You'll learn how to: a) processing and exploring text data, b)  visualizing text data using a word cloud, c) implementing tokenization and word embeddings, d) building sequence models and e) building a transformer-based text classification model.
 
    
