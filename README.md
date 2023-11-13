@@ -132,5 +132,8 @@
 
 - Natural Language Processing for Deep Learning [![Open in Dataquest](https://img.shields.io/badge/link-dataquest-green)](https://www.dataquest.io/course/natural-language-processing-for-deep-learning/)
     - You'll learn how to: a) processing and exploring text data, b)  visualizing text data using a word cloud, c) implementing tokenization and word embeddings, d) building sequence models and e) building a transformer-based text classification model.
+- Hands on project: the target is to use Weights and Biases, and Directed Acyclic Graphs (DAG) to build a pipeline for a NLP project.
+    - Building a Data Pipeline [![Open in Dataquest](https://img.shields.io/badge/link-dataquest-green)](https://www.dataquest.io/course/building-a-data-pipeline/)
+    - You'll learn how to: a) writing a robust pipeline with a scheduler in Python, b) using advanced Python concepts like closures, decorators, and more.
 
    
