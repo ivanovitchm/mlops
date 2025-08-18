@@ -28,14 +28,14 @@ Repository for the **MLOps (Machine Learning Operations)** course, offered as an
                                                 
 ## 📚 References  
 
-| Cover | Title & Authors | Date | Link |
-|-------|----------------|------|------|
-| ![](./img/nlp_huggingface.png) | **Muhammad Asad and Iqbal Khan**<br>*NLP with Hugging Face Transformers: Practical Applications using Language Models* | May, 2025 | [:books: Link](https://machinelearningmastery.com/nlp-hugging-face-transformers/) |
-| ![](./img/ai_engineering.png) | **Chip Huyen**<br>*AI Engineering: Building Applications with Foundation Models* | Jan, 2025 | [:books: Link](https://www.oreilly.com/library/view/ai-engineering/9781098166298/) |
-| ![](./img/llm_engineers_handbook.png) | **Paul Lusztin and Maxime Labonne**<br>*LLM Engineer's Handbook* | Oct, 2024 | [:books: Link](https://www.oreilly.com/library/view/llm-engineers-handbook/9781836200079/) |
-| ![](./img/hands_on_llm.png) | **Jay Alammar and Maarten Grootendorst**<br>*Hands-On Large Language Models: Language Understanding and Generation* | Sep, 2024 | [:books: Link](https://www.oreilly.com/library/view/hands-on-large-language/9781098150952/) |
-| ![](./img/designing_ml_systems.png) | **Chip Huyen**<br>*Designing Machine Learning Systems: An Iterative Process for Production-Ready Applications* | May, 2022 | [:books: Link](https://www.oreilly.com/library/view/designing-machine-learning/9781098107956/) |
-| ![](./img/deep_learning_pytorch.png) | **Daniel Voigt Godoy**<br>*Deep Learning with PyTorch Step-by-Step: A Beginner’s Guide* | Feb, 2022 | [:books: Link](https://pytorchstepbystep.com/) |
+| Title & Authors | Date | Link |
+|-----------------|------|------|
+| **Muhammad Asad and Iqbal Khan**<br>*NLP with Hugging Face Transformers: Practical Applications using Language Models* | May, 2025 | [:books: Link](https://machinelearningmastery.com/nlp-hugging-face-transformers/) |
+| **Chip Huyen**<br>*AI Engineering: Building Applications with Foundation Models* | Jan, 2025 | [:books: Link](https://www.oreilly.com/library/view/ai-engineering/9781098166298/) |
+| **Paul Lusztin and Maxime Labonne**<br>*LLM Engineer's Handbook* | Oct, 2024 | [:books: Link](https://www.oreilly.com/library/view/llm-engineers-handbook/9781836200079/) |
+| **Jay Alammar and Maarten Grootendorst**<br>*Hands-On Large Language Models: Language Understanding and Generation* | Sep, 2024 | [:books: Link](https://www.oreilly.com/library/view/hands-on-large-language/9781098150952/) |
+| **Chip Huyen**<br>*Designing Machine Learning Systems: An Iterative Process for Production-Ready Applications* | May, 2022 | [:books: Link](https://www.oreilly.com/library/view/designing-machine-learning/9781098107956/) |
+| **Daniel Voigt Godoy**<br>*Deep Learning with PyTorch Step-by-Step: A Beginner’s Guide* | Feb, 2022 | [:books: Link](https://pytorchstepbystep.com/) |
 
 ---
 
@@ -46,6 +46,7 @@ Repository for the **MLOps (Machine Learning Operations)** course, offered as an
 | [Hugging Face Docs](https://huggingface.co/docs) | Model store and documentation |
 | [MLflow](https://mlflow.org/) | Experiment tracking |
 | [Weights & Biases](https://wandb.ai/site) | Machine learning monitoring |
+
 
 
 #### Lessons
