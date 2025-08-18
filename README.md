@@ -4,9 +4,8 @@
 # Federal University of Rio Grande do Norte
 ## Technology Center
 ### Department of Computer Engineering and Automation 
-#### Machine Learning Based Systems Design
 
-Repository for the **MLOps (Machine Learning Operations)** course, offered as an elective in the Computer Engineering undergraduate program at UFRN.  
+Repository for the **Machine Learning Based Systems Design** course, offered as an elective in the Computer Engineering undergraduate program at UFRN.  
 
                                                 
 ## 📚 References  
@@ -35,8 +34,8 @@ Repository for the **MLOps (Machine Learning Operations)** course, offered as an
 #### Lessons
 
 **Week 01**
-- [![Open in PDF](https://img.shields.io/badge/-PDF-EC1C24?style=flat-square&logo=adobeacrobatreader)](https://github.com/ivanovitchm/mlops/tree/main/lessons/week_01/course_outline.pdf) Course Outline 
+- [![Open in PDF](https://img.shields.io/badge/-PDF-EC1C24?style=flat-square&logo=adobeacrobatreader)](https://github.com/ivanovitchm/mlops/tree/main/lessons/week_01/lesson01.pdf) Course Outline 
     - GitHub Education Pro: Get access to the GitHub Education Pro pack by visiting [GitHub Education](https://education.github.com/pack)
     - 📖 Learning Resources 
         - GitHub Learning Game: Check out the interactive Git learning game at [GitHub Learning Game](https://learngitbranching.js.org/)
-	    - Michael A. Lones. How to avoid machine learning pitfalls: a guide for academic researchers [Arxiv](https://arxiv.org/abs/2108.02497)
+	- Michael A. Lones. How to avoid machine learning pitfalls: a guide for academic researchers [Arxiv](https://arxiv.org/abs/2108.02497)
