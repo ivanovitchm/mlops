@@ -41,9 +41,9 @@ Repository for the **Machine Learning Based Systems Design** course, offered as 
 	- Michael A. Lones. How to avoid machine learning pitfalls: a guide for academic researchers [Arxiv](https://arxiv.org/abs/2108.02497)
 - [![Open in PDF](https://img.shields.io/badge/-PDF-EC1C24?style=flat-square&logo=adobeacrobatreader)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week01/lesson02.pdf) Visualizing Gradient Descent
     - Understanding and visualizing the five core steps of the Gradient Descent algorithm: 
-        0. initializing parameters randomly
-        1. performing the forward pass to compute predictions
-        2. calculating the loss
-        3. computing gradients with respect to each parameter
-        4. updating the parameters using the gradients and a predefined learning rate. 
+        1. initializing parameters randomly
+        2. performing the forward pass to compute predictions
+        3. calculating the loss
+        4. computing gradients with respect to each parameter
+        5. updating the parameters using the gradients and a predefined learning rate. 
 
