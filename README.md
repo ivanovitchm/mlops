@@ -47,8 +47,8 @@ Repository for the **Machine Learning Based Systems Design** course, offered as 
         4. computing gradients with respect to each parameter
         5. updating the parameters using the gradients and a predefined learning rate. 
 
-**Week 02
-[![Open in PDF](https://img.shields.io/badge/-PDF-EC1C24?style=flat-square&logo=adobeacrobatreader)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week02/lesson03.pdf) Rethinking the Training Loop (Part I)
+**Week 02**
+- [![Open in PDF](https://img.shields.io/badge/-PDF-EC1C24?style=flat-square&logo=adobeacrobatreader)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week02/lesson03.pdf) Rethinking the Training Loop (Part I)
     - [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week02/lesson3a.ipynb)  From data deneration to make predictions
         - Implement a clear `train()` function with custom dataset and `DataLoader`.  
         - Apply mini-batch gradient descent and track performance.  
