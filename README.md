@@ -58,3 +58,7 @@ Repository for the **Machine Learning Based Systems Design** course, offered as 
         - Use proper method scoping (public/protected/private).  
         - Consolidate earlier code into the class.  
         - Run the full pipeline through the class interface.
+
+**Week 03**
+ - [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week03/lesson4_eda.ipynb) Inside AirBnB Case Study: Multivariate Regression Problem. 
+
