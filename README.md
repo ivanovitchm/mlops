@@ -60,6 +60,6 @@ Repository for the **Machine Learning Based Systems Design** course, offered as 
         - Run the full pipeline through the class interface.
 
 **Week 03**
- - [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week03/lesson04_eda.ipynb) Inside AirBnB Case Study: Multivariate Regression Problem. 
+ - [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week03/lesson04.ipynb) Inside AirBnB Case Study: Multivariate Regression Problem. 
 
 
