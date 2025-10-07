@@ -62,4 +62,11 @@ Repository for the **Machine Learning Based Systems Design** course, offered as 
 **Week 03**
  - [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week03/lesson04.ipynb) Inside AirBnB Case Study: Multivariate Regression Problem. 
 
+**Week 05**: Rethinking the Training Loop (Part II) [![Open in PDF](https://img.shields.io/badge/-PDF-EC1C24?style=flat-square&logo=adobeacrobatreader)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week04/week04.pdf)
 
+- [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week04/week04c.ipynb) **A simple classification problem**:
+    - build a model for binary classification
+    - understand the concept of logits and how it is related to probabilities
+    - use binary cross-entropy loss to train a model
+    - use the loss function to handle imbalanced datasets
+    - understand the concepts of decision boundary and separability
