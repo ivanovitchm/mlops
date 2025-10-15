@@ -71,3 +71,12 @@ Repository for the **Machine Learning Based Systems Design** course, offered as 
         - use the loss function to handle imbalanced datasets
         - understand the concepts of decision boundary and separability
     - [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week04/bonus.ipynb) **Challenge (bonus: 2.5 points)**
+
+**Week 05**
+- [![Open in PDF](https://img.shields.io/badge/-PDF-EC1C24?style=flat-square&logo=adobeacrobatreader)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week05/week05_vision.pdf) Machine Learning and Computer Vision - Part I 
+    - [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://img.shields.io/badge/-PDF-EC1C24?style=flat-square&logo=adobeacrobatreader)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week05/week05_vision.ipynb) **From a shallow to a deep-ish clasification model**:
+        - data generation for image classification
+        - transformations using torchvision
+        - dataset preparation techniques
+        - building and training logistic regression and deep neural network models using PyTorch
+        - focusing on various activation functions like Sigmoid, Tanh, and ReLU
