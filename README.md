@@ -80,3 +80,14 @@ Repository for the **Machine Learning Based Systems Design** course, offered as 
         - dataset preparation techniques
         - building and training logistic regression and deep neural network models using PyTorch
         - focusing on various activation functions like Sigmoid, Tanh, and ReLU
+
+**Week 06**
+
+- [![Open in PDF](https://img.shields.io/badge/-PDF-EC1C24?style=flat-square&logo=adobeacrobatreader)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week06/Week06.pdf) Machine Learning and Computer Vision - Part II
+    - [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week06/Kernel.ipynb) **Kernel**
+    - [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week06/Week06.ipynb) **Convolutions**
+    - In this lesson, we’ve introduced convolutions and related concepts and built a convolutional neural network to tackle a multiclass classification problem.
+        - Activation function, pooling layer, flattening, Lenet-5
+        - Softmax, cross-entropy
+        - Visualizing the convolutional filters, features maps and classifier layers
+        - Hooks in Pytorch
