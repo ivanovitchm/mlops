@@ -91,3 +91,11 @@ Repository for the **Machine Learning Based Systems Design** course, offered as 
         - Softmax, cross-entropy
         - Visualizing the convolutional filters, features maps and classifier layers
         - Hooks in Pytorch
+
+**Week 07**
+
+- [![Open in PDF](https://img.shields.io/badge/-PDF-EC1C24?style=flat-square&logo=adobeacrobatreader)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week07/Week07.pdf) Machine Learning and Computer Vision - Part III
+- [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week07/week07.ipynb) **Rock, Paper and Scissors**:
+    - Standardize an image dataset
+    - Train a model to predict rock, paper, scissors poses from hand images
+    - Use dropout layers to regularize the model
