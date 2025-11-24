@@ -102,7 +102,7 @@ Repository for the **Machine Learning Based Systems Design** course, offered as 
 
 **Week 08**
 
-[![Open in PDF](https://img.shields.io/badge/-PDF-EC1C24?style=flat-square&logo=adobeacrobatreader)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week08/Week08.pdf)  Machine Learning and Computer Vision - Part III Cont.
+- [![Open in PDF](https://img.shields.io/badge/-PDF-EC1C24?style=flat-square&logo=adobeacrobatreader)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week08/Week08.pdf)  Machine Learning and Computer Vision - Part III Cont.
 - [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week08/week08.ipynb) **Rock, Paper and Scissors**:
     - Learn how to find a learning rate to train the model
     - Understand the use of adaptive learning rates   
