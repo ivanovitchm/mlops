@@ -5,7 +5,7 @@
 ## Technology Center
 ### Department of Computer Engineering and Automation 
 
-Repository for the **Machine Learning Based Systems Design** course, offered as an elective in the Computer Engineering undergraduate program at UFRN.  
+Repository for the **Machine Learning-Based Systems Design** course, offered as an elective in the Computer Engineering undergraduate program at UFRN.  
 
                                                 
 ## 📚 References  
@@ -21,16 +21,6 @@ Repository for the **Machine Learning Based Systems Design** course, offered as 
 
 ---
 
-## 🔗 Useful Links  
-
-| Resource | Description |
-|----------|-------------|
-| [Hugging Face Docs](https://huggingface.co/docs) | Model store and documentation |
-| [MLflow](https://mlflow.org/) | Experiment tracking |
-| [Weights & Biases](https://wandb.ai/site) | Machine learning monitoring |
-
-
-
 #### Lessons
 
 **Week 01**
@@ -39,70 +29,3 @@ Repository for the **Machine Learning Based Systems Design** course, offered as 
     - 📖 Learning Resources 
         - GitHub Learning Game: Check out the interactive Git learning game at [GitHub Learning Game](https://learngitbranching.js.org/)
 	- Michael A. Lones. How to avoid machine learning pitfalls: a guide for academic researchers [Arxiv](https://arxiv.org/abs/2108.02497)
-- [![Open in PDF](https://img.shields.io/badge/-PDF-EC1C24?style=flat-square&logo=adobeacrobatreader)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week01/lesson02.pdf) Visualizing Gradient Descent
-    - Understanding and visualizing the five core steps of the Gradient Descent algorithm: 
-        1. initializing parameters randomly
-        2. performing the forward pass to compute predictions
-        3. calculating the loss
-        4. computing gradients with respect to each parameter
-        5. updating the parameters using the gradients and a predefined learning rate. 
-
-**Week 02**
-- [![Open in PDF](https://img.shields.io/badge/-PDF-EC1C24?style=flat-square&logo=adobeacrobatreader)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week02/lesson03.pdf) Rethinking the Training Loop (Part I)
-    - [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week02/lesson3a.ipynb)  From data deneration to make predictions
-        - Implement a clear `train()` function with custom dataset and `DataLoader`.  
-        - Apply mini-batch gradient descent and track performance.  
-        - Add persistence: save checkpoints and enable training resumption/deployment.
-    - [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week02/lesson3b.ipynb) Going Classy
-        - Build a dedicated training class with a well-structured constructor.  
-        - Use proper method scoping (public/protected/private).  
-        - Consolidate earlier code into the class.  
-        - Run the full pipeline through the class interface.
-
-**Week 03**
- - [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week03/lesson04.ipynb) Inside AirBnB Case Study: Multivariate Regression Problem. 
-
-**Week 04**: 
-- [![Open in PDF](https://img.shields.io/badge/-PDF-EC1C24?style=flat-square&logo=adobeacrobatreader)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week04/week04.pdf) Rethinking the Training Loop (Part II)
-    - [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week04/week04c.ipynb) **A simple classification problem**:
-        - build a model for binary classification
-        - understand the concept of logits and how it is related to probabilities
-        - use binary cross-entropy loss to train a model
-        - use the loss function to handle imbalanced datasets
-        - understand the concepts of decision boundary and separability
-    - [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week04/bonus.ipynb) **Challenge (bonus: 2.5 points)**
-
-**Week 05**
-- [![Open in PDF](https://img.shields.io/badge/-PDF-EC1C24?style=flat-square&logo=adobeacrobatreader)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week05/week05_vision.pdf) Machine Learning and Computer Vision - Part I 
-    - [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week05/week05_vision.ipynb) **From a shallow to a deep-ish clasification model**:
-        - data generation for image classification
-        - transformations using torchvision
-        - dataset preparation techniques
-        - building and training logistic regression and deep neural network models using PyTorch
-        - focusing on various activation functions like Sigmoid, Tanh, and ReLU
-
-**Week 06**
-
-- [![Open in PDF](https://img.shields.io/badge/-PDF-EC1C24?style=flat-square&logo=adobeacrobatreader)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week06/Week06.pdf) Machine Learning and Computer Vision - Part II
-    - [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week06/Kernel.ipynb) **Kernel**
-    - [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week06/Week06.ipynb) **Convolutions**
-    - In this lesson, we’ve introduced convolutions and related concepts and built a convolutional neural network to tackle a multiclass classification problem.
-        - Activation function, pooling layer, flattening, Lenet-5
-        - Softmax, cross-entropy
-        - Visualizing the convolutional filters, features maps and classifier layers
-        - Hooks in Pytorch
-
-**Week 07**
-
-- [![Open in PDF](https://img.shields.io/badge/-PDF-EC1C24?style=flat-square&logo=adobeacrobatreader)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week07/Week07.pdf) Machine Learning and Computer Vision - Part III
-- [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week07/week07.ipynb) **Rock, Paper and Scissors**:
-    - Standardize an image dataset
-    - Train a model to predict rock, paper, scissors poses from hand images
-    - Use dropout layers to regularize the model
-
-**Week 08**
-
-- [![Open in PDF](https://img.shields.io/badge/-PDF-EC1C24?style=flat-square&logo=adobeacrobatreader)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week08/Week08.pdf)  Machine Learning and Computer Vision - Part III Cont.
-- [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/mlops/blob/main/lessons/week08/week08.ipynb) **Rock, Paper and Scissors**:
-    - Learn how to find a learning rate to train the model
-    - Understand the use of adaptive learning rates   
