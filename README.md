@@ -39,3 +39,5 @@ Repository for the **Machine Learning-Based Systems Design** course, offered as 
         3. calculating the loss
         4. computing gradients with respect to each parameter
         5. updating the parameters using the gradients and a predefined learning rate. 
+
+        
