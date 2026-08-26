@@ -50,3 +50,13 @@ Repository for the **Machine Learning-Based Systems Design** course, offered as 
         - Consolidate earlier code into the class.  
         - Run the full pipeline through the class interface.      
 
+**Week 03**
+- [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/aiengineering/blob/main/lessons/week03/lesson04.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ivanovitchm/aiengineering/blob/main/lessons/week03/lesson04.ipynb) Rethinking the Training Loop (Part II) - A Real-World Case Study
+    - Predicting Airbnb nightly prices in **Porto, Portugal** with PyTorch, using the [Inside Airbnb](https://insideairbnb.com/porto/) snapshot of June 23, 2026 (15,278 real listings).
+    - From business problem to model: framing a pricing question as a regression task and setting an honest naive baseline (predict the mean) that the model must beat.
+    - Exploratory data analysis with data visualization best practices: one question per chart, sequential/diverging color scales, direct labeling, and a geographic scatter map of the listings.
+    - Real-world data preparation: parsing currency strings, handling missing values, and robust IQR-based outlier filtering (Tukey's rule).
+    - Reusing the `Architecture` class from lesson 3b **unchanged** to train a multivariate linear regression on real data: tensors, `random_split`, z-score standardization without data leakage, and `DataLoader`s.
+    - Honest evaluation in euros: RMSE/MAE vs. the baseline, predicted-vs-actual analysis, and interpreting learned weights (multicollinearity and the "beds paradox").
+    - Saving/loading checkpoints with the scaler statistics and serving a prediction for a brand-new listing.
+    - Retention devices throughout: 🔮 predict-before-you-run prompts, ✅ check-yourself questions, a final self-test with hidden answers, and 7 hands-on challenges.
