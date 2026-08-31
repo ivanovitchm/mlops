@@ -60,3 +60,22 @@ Repository for the **Machine Learning-Based Systems Design** course, offered as 
     - Honest evaluation in euros: RMSE/MAE vs. the baseline, predicted-vs-actual analysis, and interpreting learned weights (multicollinearity and the "beds paradox").
     - Saving/loading checkpoints with the scaler statistics and serving a prediction for a brand-new listing.
     - Retention devices throughout: 🔮 predict-before-you-run prompts, ✅ check-yourself questions, a final self-test with hidden answers, and 7 hands-on challenges.
+
+**Week 04**
+- [![Open in PDF](https://img.shields.io/badge/-PDF-EC1C24?style=flat-square&logo=adobeacrobatreader)](https://github.com/ivanovitchm/aiengineering/blob/main/lessons/week04/lesson05.pdf) A Brief History of LLMs (2014 → 2026)
+    - The problem before 2017: statistical translation, word2vec, seq2seq, and attention as a patch.
+    - The Transformer and the family split: encoders that read (BERT) vs. decoders that write (GPT).
+    - Scaling and GPT-3: the task lives in the prompt (in-context learning).
+    - RLHF and ChatGPT: from text completer to assistant.
+    - The 2023 race and its limits: hallucination, knowledge cut-off, and RAG.
+    - 2024–25: multimodality, long context, reasoning models, DeepSeek and Mixture of Experts.
+    - Agents: tool calling, MCP, memory, and skills.
+    - 2026 headlines, told through primary sources (papers, launch posts, rebuilt charts).
+    
+- [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/aiengineering/blob/main/lessons/week04/lesson05.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ivanovitchm/aiengineering/blob/main/lessons/week04/lesson05.ipynb) Before the Transformer: squeeze, then attend
+    - The 2014–2015 chapter of the lecture, hands-on: English → Portuguese translation on real data ([Tatoeba](https://tatoeba.org) pairs), scored with BLEU, the same metric the Transformer paper reports.
+    - Training a 2014-style **seq2seq** (two LSTMs, one fixed context vector) by reusing the `Architecture` class from lesson 3b with only two methods overridden (teacher forcing).
+    - **Measuring the bottleneck**: BLEU as a function of sentence length, and watching quality fall as the single vector fills up.
+    - Adding **Bahdanau attention** and re-running the same measurement: the fall flattens, and the attention weights become a readable **alignment map** ("red" → "vermelho"), the same figure as the 2015 paper.
+    - Ends right where Wednesday begins: attention fixed the bottleneck, not the slowness — the question the Transformer answers.
+    - Exercises: swap the language pair (URLs for French, Spanish, German, and Italian included), compare length curves across languages, stress the bottleneck with longer sentences, and read a foreign alignment.
