@@ -79,3 +79,21 @@ Repository for the **Machine Learning-Based Systems Design** course, offered as 
     - Adding **Bahdanau attention** and re-running the same measurement: the fall flattens, and the attention weights become a readable **alignment map** ("red" → "vermelho"), the same figure as the 2015 paper.
     - Ends right where Wednesday begins: attention fixed the bottleneck, not the slowness — the question the Transformer answers.
     - Exercises: swap the language pair (URLs for French, Spanish, German, and Italian included), compare length curves across languages, stress the bottleneck with longer sentences, and read a foreign alignment.
+
+- [![Open in PDF](https://img.shields.io/badge/-PDF-EC1C24?style=flat-square&logo=adobeacrobatreader)](https://github.com/ivanovitchm/aiengineering/blob/main/lessons/week04/lesson06.pdf) **Inside the Transformer: from tokens to sampling**
+  - Follow **“a red car”** through GPT-2 (124M), from tokenization to generation.
+  - **Seven stops:** tokens, embeddings, positions, attention, Transformer blocks, sampling, and the full model.
+  - Builds self-attention step by step, including multi-head attention and causal masking.
+  - Closes by breaking down GPT-2’s **124M parameters**.
+
+- [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/aiengineering/blob/main/lessons/week04/lesson06_1_class.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ivanovitchm/aiengineering/blob/main/lessons/week04/lesson06_1_class.ipynb) **The seven stops, in code**
+  - Replays the lecture using the real **GPT-2 small** from Hugging Face.
+  - Explores tokenization, embeddings, positions, attention, Transformer blocks, sampling, and generation.
+  - Implements **one attention head by hand** and verifies it against the library output.
+  - Runs entirely on the **free Colab CPU**, with no training required.
+
+- [![Jupyter](https://img.shields.io/badge/-Notebook-191A1B?style=flat-square&logo=jupyter)](https://github.com/ivanovitchm/aiengineering/blob/main/lessons/week04/lesson06_2_exercise.ipynb) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ivanovitchm/aiengineering/blob/main/lessons/week04/lesson06_2_exercise.ipynb) **Exercise: a model selection report**
+  - Compare **GPT-2, SmolLM2-360M, and Qwen2.5-0.5B** for an application in your own domain.
+  - Evaluate **tokenization/context, architecture, attention, classification, generation, and inference cost**.
+  - Use ≥30 labelled examples for zero- and few-shot classification.
+  - **Deliverable:** executed notebook with evidence-based decisions, a final comparison table, and a **3-minute presentation**.
